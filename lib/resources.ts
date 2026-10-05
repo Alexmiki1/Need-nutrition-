@@ -178,3 +178,14 @@ export function filterArticles(options: {
     return categoryOk && languageOk;
   });
 }
+
+export function matchesLanguageFilter(
+  articleLanguage: ArticleLanguage,
+  filter: "all" | "en" | "am",
+): boolean {
+  return (
+    filter === "all" ||
+    articleLanguage === "both" ||
+    articleLanguage === filter
+  );
+}
