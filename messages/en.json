@@ -1,0 +1,1805 @@
+{
+  "Metadata": {
+    "siteName": "NEED Nutritional",
+    "homeTitle": "NEED Nutritional Products and Services PLC",
+    "homeDescription": "Nutrition counseling, institutional consultancy, and Sewegna media from Addis Ababa, Ethiopia — serving individuals, organizations, and media."
+  },
+  "Nav": {
+    "about": "About",
+    "services": "Services",
+    "consultancy": "Consultancy",
+    "sewegna": "Sewegna",
+    "resources": "Resources",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "book": "Book a Consultation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mainNav": "Main navigation"
+  },
+  "Language": {
+    "en": "EN",
+    "am": "አማ",
+    "switchLabel": "Language"
+  },
+  "StickyBar": {
+    "call": "Call",
+    "whatsapp": "WhatsApp",
+    "book": "Book",
+    "label": "Quick contact"
+  },
+  "Footer": {
+    "tagline": "Bridging the gap between academic research and market availability in Ethiopian nutrition.",
+    "company": "Company",
+    "services": "Services",
+    "connect": "Connect",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "rights": "© {year} NEED Nutritional Products and Services PLC — Addis Ababa, Ethiopia",
+    "placeholderNote": "Abinet Tekle Hagos · neednutritional@gmail.com · needproducts.com"
+  },
+  "Home": {
+    "hero": {
+      "tag": "Nutritionist · Author · Media Icon",
+      "title": "NEED Nutritional Products and Services PLC",
+      "subtitle": "15+ years transforming how Ethiopia thinks about nutrition — through landmark TV & radio shows, peer-reviewed research, corporate wellness programs, and personalized counseling.",
+      "ctaBook": "Book a Consultation",
+      "ctaPartner": "Work With NEED",
+      "ctaMedia": "Media Inquiry",
+      "portraitAlt": "Portrait of Abinet Tekle Hagos, founder of NEED Nutritional",
+      "badgeOne": "Ph.D. Fellow — Nutrition Science",
+      "badgeTwo": "Founder — NEED Foods",
+      "portraitLabel": "Abinet Tekle Hagos · Founder"
+    },
+    "trust": {
+      "title": "Trusted pathways",
+      "items": {
+        "individuals": "Individuals & families",
+        "institutions": "NGO · Government · Corporate",
+        "media": "TV · Radio · Sewegna"
+      }
+    },
+    "stats": {
+      "title": "Impact at a glance",
+      "note": "Highlights from Abinet Tekle Hagos and NEED’s public work.",
+      "items": [
+        {
+          "value": "15+",
+          "label": "Years of Impact"
+        },
+        {
+          "value": "600+",
+          "label": "Corporate Employees Assessed"
+        },
+        {
+          "value": "1st",
+          "label": "Nutrition TV Show in Ethiopia"
+        },
+        {
+          "value": "500+",
+          "label": "Media Appearances"
+        }
+      ]
+    },
+    "sewegna": {
+      "eyebrow": "Sewegna",
+      "title": "Watch our latest health & nutrition content",
+      "subtitle": "TV, podcast, and radio conversations from NEED — including Sewegna on Fana TV.",
+      "watchAll": "Watch all episodes",
+      "play": "Play episode",
+      "placeholderTitle": "[Episode title — add in Sewegna CMS]",
+      "placeholderCategory": "Sewegna"
+    },
+    "story": {
+      "eyebrow": "Why NEED",
+      "title": "Precision nutrition rooted in Ethiopian heritage",
+      "subtitle": "Abinet’s Diet uses data-driven metabolic analysis to create personalized nutrition plans using Ethiopia’s rich food heritage — injera, legumes, spices, and indigenous superfoods.",
+      "points": [
+        "Metabolic analysis and body composition assessment",
+        "Ethiopian biodiversity and indigenous ingredients",
+        "Evidence-based counseling for chronic disease nutrition",
+        "Media and health communication that reaches the public"
+      ],
+      "productTitle": "NEED Foods",
+      "productBody": "Where science meets the plate — Ethiopia’s clinical kitchen transforming indigenous ingredients into precision-crafted healthy cuisine.",
+      "productCta": "Explore NEED Foods",
+      "productPrice": "Award-winning gastronomy · Addis Ababa"
+    },
+    "pathways": {
+      "eyebrow": "Three pathways",
+      "title": "Choose the path that fits you",
+      "subtitle": "We never send everyone to one generic form.",
+      "individuals": {
+        "title": "Individuals & families",
+        "body": "Personalized nutrition counseling and Abinet’s Diet plans.",
+        "cta": "Book a Consultation"
+      },
+      "institutions": {
+        "title": "NGO · Government · Corporate",
+        "body": "Workplace wellness, screening, training, and institutional programs.",
+        "cta": "Partner With Us"
+      },
+      "media": {
+        "title": "Media · TV · Radio",
+        "body": "Sewegna, interviews, press, and nutrition communication.",
+        "cta": "Media Inquiry"
+      }
+    },
+    "institutional": {
+      "eyebrow": "Institutional & consultancy",
+      "title": "Programs and partnerships for organizations",
+      "subtitle": "Corporate wellness, nutrition communication, and institutional programs trusted by global and Ethiopian partners.",
+      "imageAlt": "NEED institutional and partnership programs",
+      "features": [
+        {
+          "title": "NGO programs",
+          "body": "Nutrition-sensitive programs and advisory support."
+        },
+        {
+          "title": "Government",
+          "body": "Public nutrition communication and policy-adjacent work."
+        },
+        {
+          "title": "Corporate wellness",
+          "body": "Employee screening, coaching, and workplace training."
+        },
+        {
+          "title": "Nutrition communication",
+          "body": "Campaigns, media, and behavior-change communication."
+        }
+      ],
+      "cta": "Explore consultancy"
+    },
+    "resources": {
+      "eyebrow": "Resources",
+      "title": "Articles and guides",
+      "subtitle": "Practical nutrition reading — including Sewegna recaps and research highlights.",
+      "viewAll": "View all resources",
+      "readMore": "Read more",
+      "placeholderCategory": "Nutrition",
+      "placeholderTitle": "[Article title — add in Resources CMS]",
+      "placeholderMeta": "NEED · Addis Ababa"
+    },
+    "banner": {
+      "eyebrow": "Partner With Us",
+      "title": "Build nutrition programs with NEED",
+      "body": "From Unilever’s Green Gursha campaign to corporate employee screening — let’s design a program for your organization.",
+      "cta": "Start a partnership"
+    },
+    "partners": {
+      "eyebrow": "Partners",
+      "title": "Trusted by global leaders",
+      "subtitle": "UN agencies, global NGOs, governments, and corporate partners.",
+      "cta": "Work With NEED",
+      "items": [
+        "IFPRI",
+        "USAID",
+        "Nutrition International",
+        "Ethiopian Airlines",
+        "UNICEF",
+        "GAIN",
+        "TechnoServe",
+        "Mercy Corps",
+        "Unilever"
+      ]
+    },
+    "testimonials": {
+      "eyebrow": "Real results",
+      "title": "Client transformations",
+      "subtitle": "Real people, personalized journeys through Abinet’s nutrition expertise — published from NEED’s approved case stories.",
+      "ratingLabel": "Recognition",
+      "ratingValue": "TripAdvisor · Wanderlog · Google",
+      "viewAll": "View testimonials",
+      "quote": "I believe our greatest medicine grows in our own soil.",
+      "name": "Abinet Tekle Hagos",
+      "role": "Ph.D. Fellow · Founder, NEED"
+    },
+    "services": {
+      "eyebrow": "Services",
+      "title": "Individual nutrition services",
+      "subtitle": "Explore focused support areas — each page links to consultation booking.",
+      "cta": "View service",
+      "items": [
+        {
+          "slug": "nutrition-counseling",
+          "title": "Nutrition counseling"
+        },
+        {
+          "slug": "weight-management",
+          "title": "Weight management"
+        },
+        {
+          "slug": "diabetes-nutrition",
+          "title": "Diabetes nutrition"
+        },
+        {
+          "slug": "hypertension-nutrition",
+          "title": "Hypertension nutrition"
+        },
+        {
+          "slug": "cholesterol-nutrition",
+          "title": "Cholesterol nutrition"
+        },
+        {
+          "slug": "personalized-meal-planning",
+          "title": "Personalized meal planning"
+        }
+      ]
+    },
+    "contact": {
+      "eyebrow": "Get in touch",
+      "title": "Start your health journey",
+      "subtitle": "Book a consultation, join an upcoming event, or partner with NEED.",
+      "call": "Call",
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "telegram": "Telegram",
+      "facebook": "Facebook",
+      "qrLabel": "QR code",
+      "qrNote": "needproducts.com"
+    },
+    "choosePath": {
+      "eyebrow": "Next step",
+      "title": "How can we help you today?",
+      "subtitle": "Pick your audience path to open the right form."
+    }
+  },
+  "Common": {
+    "comingSoon": "Page coming in a later phase",
+    "placeholderImage": "Image placeholder",
+    "home": "Home",
+    "breadcrumb": "Breadcrumb"
+  },
+  "Transformations": {
+    "meta": {
+      "title": "Client Transformations",
+      "description": "Real client transformation stories through Abinet’s personalized nutrition expertise at NEED Nutritional Products and Services PLC."
+    },
+    "eyebrow": "Real results",
+    "title": "Client Transformations",
+    "subtitle": "These are real people, real results — whether losing or gaining weight, each journey is personalized through Abinet’s nutrition expertise.",
+    "cta": "Start Your Transformation",
+    "ctaTitle": "Ready for your own transformation?",
+    "ctaSubtitle": "Book a consultation to begin a personalized nutrition plan with NEED.",
+    "items": [
+      {
+        "category": "Before → After",
+        "result": "30+ kg lost",
+        "timeframe": "in 1 year",
+        "body": "A 28-year-old woman who battled a tumor and hormonal imbalance reclaimed her health and renewed her energy under Abinet’s personalized nutrition plan.",
+        "tone": "loss"
+      },
+      {
+        "category": "Before → After",
+        "result": "41 kg lost",
+        "timeframe": "in 2 years",
+        "body": "A 25-year-old mother of two achieved an astonishing transformation — all while navigating the demands of raising young children.",
+        "tone": "loss"
+      },
+      {
+        "category": "Healthy weight gain",
+        "result": "+10 kg gained",
+        "timeframe": "in 3 months",
+        "body": "Hanan achieved a remarkable healthy weight gain of 10 kg in just 3 months through Abinet's targeted nutrition counseling — restoring her vitality and confidence.",
+        "name": "Hanan",
+        "tone": "gain"
+      }
+    ]
+  },
+  "About": {
+    "meta": {
+      "title": "About NEED & Abinet Tekle Hagos",
+      "description": "Meet Abinet Tekle Hagos and NEED Nutritional Products and Services PLC — nutrition counseling, research, media, and corporate wellness from Addis Ababa, Ethiopia."
+    },
+    "hero": {
+      "eyebrow": "The pioneer behind the movement",
+      "title": "Breaking silence, building healthier nations",
+      "subtitle": "With 15+ years in nutrition, public health communication & food systems innovation — transforming health through evidence-based, culturally grounded solutions."
+    },
+    "overview": {
+      "eyebrow": "The pioneer behind the movement",
+      "title": "Breaking silence, building healthier nations",
+      "quote": "Before nutrition was a household conversation in Ethiopia, it was my mission. I didn't just share advice — I ignited a national dialogue that transformed how a country thinks about food and health.",
+      "quoteAttr": "— Abinet Tekle Hagos",
+      "body": "With an M.Sc. in Food Science & Nutrition (AAU) and B.Sc. in Food Science (Haramaya University), combined with 15+ years of multidisciplinary impact, Abinet bridges academic rigor with grassroots community transformation — across NGO consulting, government advising, corporate wellness, media, and research.",
+      "orgLabel": "Organization",
+      "founderLabel": "Founder",
+      "locationLabel": "Based in",
+      "audiencesLabel": "Who we serve",
+      "audiencesValue": "Individuals & families · NGO / Government / Corporate · Media / Sewegna",
+      "impactBadge": "15+ Years of Impact",
+      "achievements": [
+        "Founded Ethiopia's first nutrition newspaper — Ethio-Tena",
+        "Created Ethiopia's first English nutrition radio show on Afro FM",
+        "Hosted landmark Amharic nutrition programs on Fana TV & Radio",
+        "2019 Mandela Washington Fellow — Drake University, Iowa, USA",
+        "Published author & academic researcher — Moringa, chickpeas & Ethiopian food science"
+      ]
+    },
+    "stats": {
+      "items": [
+        {
+          "value": "15+",
+          "label": "Years of Impact"
+        },
+        {
+          "value": "600+",
+          "label": "Corporate Employees Assessed"
+        },
+        {
+          "value": "1st",
+          "label": "First Nutrition TV Show in Ethiopia"
+        },
+        {
+          "value": "500+",
+          "label": "Media Appearances"
+        }
+      ]
+    },
+    "quote": {
+      "en": "I believe our greatest medicine grows in our own soil.",
+      "am": "መድኃኒታችን የሚበቅለው በገዛ አፈራችን ላይ እንደሆነ አምናለሁ።",
+      "attr": "— Abinet Tekle Hagos, Ph.D. Fellow"
+    },
+    "credentials": {
+      "cards": [
+        {
+          "title": "Academic Credentials",
+          "items": [
+            "Ph.D. Fellow (In Progress)",
+            "M.Sc. Food Science & Nutrition (Addis Ababa University)",
+            "B.Sc. Food Science (Haramaya University)"
+          ]
+        },
+        {
+          "title": "Publications",
+          "items": [
+            "Effect of Processing and Blending on Taro and Wheat Flour Cookies",
+            "Moringa stenopetala Nutritional Profile Study",
+            "Chickpea-based RUSF Sensory Acceptability Trial",
+            "Ethio-Tena Nutrition Newspaper"
+          ],
+          "linkLabel": "View research below",
+          "linkHref": "#research"
+        },
+        {
+          "title": "Key Programs",
+          "items": [
+            "Sewegna Health & Nutrition Show (Fana TV)",
+            "Ehuden Be EBS Appearances",
+            "Afro FM Nutrition Radio Show",
+            "Mandela Washington Fellowship 2019"
+          ]
+        }
+      ]
+    },
+    "diet": {
+      "badge": "Abinet's Diet",
+      "titleBefore": "Precision Nutrition Meets",
+      "titleAccent": "Cultural Authenticity",
+      "subtitle": "Moving beyond generic advice — Abinet’s Diet uses data-driven metabolic analysis to create hyper-personalized nutrition plans using Ethiopia’s rich food heritage.",
+      "pillars": [
+        {
+          "title": "Metabolic Analysis",
+          "body": "Data-driven assessment of individual metabolic rates and body composition."
+        },
+        {
+          "title": "Ethiopian Biodiversity",
+          "body": "Leveraging the rich biodiversity of Ethiopian superfoods and indigenous ingredients."
+        },
+        {
+          "title": "Precision Tracking",
+          "body": "Continuous monitoring and adjustment of personalized nutrition plans."
+        },
+        {
+          "title": "Holistic Wellness",
+          "body": "Addressing hormonal balance, energy, fertility, and chronic disease prevention."
+        },
+        {
+          "title": "Cultural Authenticity",
+          "body": "Meals rooted in Ethiopian culinary heritage — injera, legumes, spices, and more."
+        },
+        {
+          "title": "Evidence-Based Science",
+          "body": "Every recommendation grounded in peer-reviewed research and clinical experience."
+        }
+      ]
+    },
+    "fellowship": {
+      "title": "Global Leadership & Innovation",
+      "subtitle": "Drake University, Iowa, USA — A U.S. Government flagship program for Africa's brightest young leaders.",
+      "photoTitle": "YALI Cohort 2019",
+      "photoSubtitle": "Drake University — Des Moines, Iowa, USA",
+      "badge": "Young African Leaders Initiative",
+      "highlights": [
+        "Selected as one of Africa's most promising young leaders",
+        "High-level leadership training at Drake University, Iowa",
+        "Networked with top US business & government leaders",
+        "Brought global nutrition best practices back to Ethiopia"
+      ],
+      "tags": [
+        "U.S. Department of State",
+        "YALI Network",
+        "Drake University",
+        "Africa Leadership"
+      ]
+    },
+    "corporate": {
+      "eyebrow": "Corporate wellness",
+      "title": "Workplace nutrition programs that deliver",
+      "subtitle": "Screening, coaching, and training for organizations — from Addis Ababa HQ to manufacturing sites.",
+      "services": [
+        {
+          "title": "Nutritional Body Composition Screening",
+          "items": [
+            "BMI, body fat %, muscle mass & resting metabolic rate",
+            "Waist-to-hip ratio & visceral fat analysis",
+            "Full profiling across HQ Addis & Dukem Manufacturing"
+          ]
+        },
+        {
+          "title": "Personalized Health Reports & Coaching",
+          "items": [
+            "Individualized action plans for every employee",
+            "Healthy weight loss, gain & body recomposition",
+            "Nutritional counseling sessions for high-risk employees"
+          ]
+        },
+        {
+          "title": "Wellness, Nutrition & Mental Health Training",
+          "items": [
+            "Workplace nutrition workshops & awareness campaigns",
+            "Mental health & stress management sessions",
+            "Canteen meal planning & healthy menu design"
+          ]
+        }
+      ],
+      "campaignLabel": "Campaign spotlight",
+      "campaignTitle": "Project Gursha — Green Nutrition Campaign",
+      "campaignBody": "Designed and led Unilever Ethiopia's landmark Green Gursha campaign — promoting Ethiopia's traditional green vegetables (collard greens, cabbage, Swiss chard) paired with Knorr seasoning. Curated 20 nutritious Ethiopian dishes for 100+ participants, blending nutrition science with culinary heritage.",
+      "tags": [
+        "Collard Greens",
+        "Cabbage",
+        "Swiss Chard",
+        "Knorr",
+        "20 Dishes",
+        "100+ Participants"
+      ],
+      "impactTitle": "Program impact",
+      "impact": [
+        "Reduced employee absenteeism through preventive nutrition",
+        "Science-backed canteen meal redesign proposed",
+        "Raised nutrition awareness across 600+ staff"
+      ],
+      "impactCta": "Let's build a program"
+    },
+    "research": {
+      "title": "Peer-Reviewed Research",
+      "subtitle": "Published academic work bridging Ethiopian food science, nutrition, and public health — from graduate research to peer-reviewed journals.",
+      "note": "Additional publications, reports, and working papers available upon request.",
+      "papers": [
+        {
+          "type": "Published Book",
+          "year": "2013",
+          "title": "Effect of Processing and Blending on Taro and Wheat Flour Cookies",
+          "authors": "Abinet Tekle Hagos, Solomon Worku (Dr.Eng.), Negussie Retta (Prof.)",
+          "venue": "LAP Lambert Academic Publishing · ISBN: 978-3-8443-9025-4",
+          "body": "A graduate thesis investigating how processing techniques and ingredient blending ratios affect the nutritional quality, texture, and sensory properties of cookies made from taro and wheat flour — advancing food science research for Ethiopian ingredients.",
+          "cta": "View on Amazon",
+          "href": "https://www.amazon.com/s?k=978-3-8443-9025-4",
+          "tone": "blue"
+        },
+        {
+          "type": "Research Paper",
+          "year": "2021",
+          "title": "Nutritional Profile of Moringa stenopetala Species Samples Collected from Different Places in Ethiopia",
+          "authors": "Abinet Tekle et al.",
+          "venue": "European Journal of Nutrition & Food Safety",
+          "body": "This study profiles the nutritional composition of Moringa stenopetala samples from multiple Ethiopian regions, examining variation in protein, micronutrients, and anti-nutritional factors — contributing critical evidence for leveraging indigenous superfoods in Ethiopian nutrition programs.",
+          "cta": "View Journal",
+          "href": "https://journalejnfs.com/",
+          "tone": "green"
+        },
+        {
+          "type": "Research Paper",
+          "year": "2018",
+          "title": "Sensory Acceptability Trial for a Chickpea-based Ready-to-use Supplementary Food",
+          "authors": "Abinet Tekle et al.",
+          "venue": "Semantic Scholar / Research Publication",
+          "body": "A sensory evaluation study testing the acceptability of a chickpea-based ready-to-use supplementary food (RUSF) among target populations — assessing taste, texture, and palatability to support scale-up of locally-produced therapeutic nutrition products in Ethiopia.",
+          "cta": "View on Semantic Scholar",
+          "href": "https://www.semanticscholar.org/search?q=Sensory%20Acceptability%20Trial%20Chickpea%20Abinet%20Tekle",
+          "tone": "orange"
+        }
+      ]
+    },
+    "partners": {
+      "eyebrow": "Major projects & partnerships",
+      "title": "Trusted by global leaders",
+      "subtitle": "UN agencies, global NGOs, governments & Fortune 500 corporates",
+      "items": [
+        "IFPRI",
+        "USAID",
+        "Nutrition International",
+        "Ethiopian Airlines",
+        "UNICEF",
+        "GAIN",
+        "TechnoServe",
+        "Mercy Corps",
+        "Unilever"
+      ]
+    },
+    "team": {
+      "eyebrow": "Leadership",
+      "title": "Meet the founder",
+      "subtitle": "Abinet Tekle Hagos leads NEED Nutritional Products and Services PLC.",
+      "specialtiesLabel": "Specialties",
+      "languagesLabel": "Languages",
+      "members": [
+        {
+          "name": "Abinet Tekle Hagos",
+          "position": "Founder · Nutritionist · Media Icon · Corporate Wellness Expert",
+          "credentials": "Ph.D. Fellow · M.Sc. Food Science & Nutrition (AAU) · B.Sc. Food Science (Haramaya) · Mandela Washington Fellow 2019",
+          "bio": "With 15+ years in nutrition, public health communication and food systems innovation — transforming health through evidence-based, culturally grounded solutions across counseling, research, media, and institutional programs.",
+          "specialties": [
+            "Clinical nutrition counseling",
+            "Corporate wellness",
+            "Health communication & media",
+            "Food science research"
+          ],
+          "languages": [
+            "Amharic",
+            "English"
+          ],
+          "photoAlt": "Abinet Tekle Hagos, founder of NEED Nutritional"
+        }
+      ]
+    },
+    "contact": {
+      "eyebrow": "Get in touch",
+      "title": "Start your health journey",
+      "subtitle": "Book a consultation, join an upcoming event, or partner with NEED Nutritional Products & Services PLC.",
+      "whatsapp": "WhatsApp",
+      "whatsappUs": "WhatsApp (US)",
+      "telegram": "Telegram",
+      "phone": "Phone"
+    },
+    "cta": {
+      "title": "Ready to work with NEED?",
+      "subtitle": "Individuals book a consultation. Organizations start a partnership conversation.",
+      "book": "Book a Consultation",
+      "partner": "Partner With Us"
+    }
+  },
+  "Services": {
+    "meta": {
+      "indexTitle": "Nutrition Services",
+      "indexDescription": "Individual nutrition services from NEED — counseling, weight management, diabetes, hypertension, cholesterol support, and personalized meal planning in Addis Ababa."
+    },
+    "common": {
+      "eyebrow": "Individual services",
+      "descriptionLabel": "Overview",
+      "whoFor": "Who it is for",
+      "approachLabel": "Our approach",
+      "approachTitle": "How this service works",
+      "benefitsLabel": "Benefits",
+      "benefitsTitle": "What you can expect",
+      "disclaimer": "NEED provides nutrition counseling and education. This is not a substitute for medical diagnosis or treatment. Always consult your clinician for medical decisions.",
+      "faqLabel": "FAQ",
+      "faqTitle": "Frequently asked questions",
+      "relatedLabel": "Resources",
+      "relatedTitle": "Related reading",
+      "readMore": "Explore",
+      "otherServices": "Other services",
+      "ctaTitle": "Ready to book this service?",
+      "ctaSubtitle": "Start with a consultation — we will match the plan to your goals and context.",
+      "bookCta": "Book a Consultation",
+      "contactCta": "Contact NEED"
+    },
+    "index": {
+      "eyebrow": "Services",
+      "heroTitle": "Individual nutrition services",
+      "heroSubtitle": "Evidence-informed counseling rooted in Ethiopian food culture — personalized for your health goals.",
+      "title": "Choose a focus area",
+      "subtitle": "Each service pathway leads to a consultation with NEED. Pick the area that best matches what you need today.",
+      "viewService": "View service",
+      "ctaTitle": "Not sure which service fits?",
+      "ctaSubtitle": "Book a consultation and we will help you choose the right starting point."
+    },
+    "items": {
+      "nutrition-counseling": {
+        "title": "Nutrition counseling",
+        "summary": "One-to-one nutrition guidance grounded in evidence and Ethiopian food heritage.",
+        "description": "Personalized nutrition counseling with Abinet Tekle Hagos and NEED — clarifying goals, reviewing eating patterns, and building practical next steps you can sustain.",
+        "audience": [
+          "Adults seeking clearer nutrition guidance",
+          "People navigating lifestyle or dietary changes",
+          "Anyone who wants culturally grounded meal advice"
+        ],
+        "approachIntro": "We start with your story and goals, then build a plan you can follow with local foods.",
+        "approach": [
+          "Intake conversation covering goals, history, and preferences",
+          "Review of current eating patterns and lifestyle context",
+          "Practical recommendations aligned with Ethiopian cuisine where appropriate",
+          "Follow-up to adjust the plan as your needs change"
+        ],
+        "benefits": [
+          "Clearer understanding of your nutrition priorities",
+          "Actionable steps instead of generic advice",
+          "Support that respects culture, budget, and routine",
+          "A pathway into ongoing counseling if needed"
+        ],
+        "faqs": [
+          {
+            "question": "How do I start?",
+            "answer": "Book a consultation through the Book page. We will confirm timing and what to prepare."
+          },
+          {
+            "question": "Is this medical treatment?",
+            "answer": "No. NEED provides nutrition counseling and education. Medical diagnosis and treatment remain with your clinician."
+          },
+          {
+            "question": "Can sessions be remote?",
+            "answer": "Availability for in-person and remote options can be confirmed when you book. [CONFIRM FORMAT WITH NEED]"
+          }
+        ],
+        "related": [
+          {
+            "title": "Healthy eating basics",
+            "href": "/resources"
+          },
+          {
+            "title": "Abinet’s Diet approach",
+            "href": "/about"
+          },
+          {
+            "title": "Sewegna nutrition content",
+            "href": "/sewegna"
+          }
+        ]
+      },
+      "weight-management": {
+        "title": "Weight management",
+        "summary": "Personalized support for healthy weight loss, gain, or recomposition — without one-size-fits-all diets.",
+        "description": "Weight management counseling focused on sustainable habits, metabolic context, and culturally familiar foods. Plans are individualized; results vary.",
+        "audience": [
+          "Adults seeking healthy weight loss support",
+          "People needing healthy weight gain guidance",
+          "Clients working on body recomposition with nutrition support"
+        ],
+        "approachIntro": "We assess your starting point, set realistic goals, and track progress with adjustments over time.",
+        "approach": [
+          "Baseline review of goals, history, and lifestyle",
+          "Nutrition plan tailored to your preferences and constraints",
+          "Progress check-ins and plan adjustments",
+          "Education on sustainable habits beyond short-term fixes"
+        ],
+        "benefits": [
+          "A plan matched to your goals (loss, gain, or recomposition)",
+          "Focus on habits you can maintain",
+          "Support that considers energy, hormones, and daily life context",
+          "Coordination with your clinician when medical issues are involved"
+        ],
+        "faqs": [
+          {
+            "question": "Do you guarantee a specific weight result?",
+            "answer": "No. NEED does not promise specific weight outcomes. Progress depends on many factors and is reviewed individually."
+          },
+          {
+            "question": "Will I get a meal plan?",
+            "answer": "Many clients receive personalized meal guidance. Exact deliverables are confirmed during consultation."
+          },
+          {
+            "question": "How long does support take?",
+            "answer": "Timelines vary. Some clients work over months; others need shorter focused support. We set expectations together."
+          }
+        ],
+        "related": [
+          {
+            "title": "Weight management articles",
+            "href": "/resources"
+          },
+          {
+            "title": "Client transformations",
+            "href": "/testimonials"
+          },
+          {
+            "title": "Book a consultation",
+            "href": "/book"
+          }
+        ]
+      },
+      "diabetes-nutrition": {
+        "title": "Diabetes nutrition",
+        "summary": "Nutrition education and meal strategies to support diabetes care alongside your clinical team.",
+        "description": "Practical diabetes-focused nutrition counseling — helping you understand food choices, meal timing, and sustainable patterns that support your care plan. NEED does not replace your doctor or diabetes educator.",
+        "audience": [
+          "Adults living with diabetes or prediabetes (with clinician oversight)",
+          "People seeking meal strategies that fit Ethiopian foods",
+          "Clients who want clearer day-to-day nutrition guidance"
+        ],
+        "approachIntro": "We align nutrition education with your clinical care and lived food culture.",
+        "approach": [
+          "Review of goals and clinician guidance you already have",
+          "Education on carbohydrate patterns and balanced plates",
+          "Meal ideas adapted to familiar Ethiopian foods where suitable",
+          "Follow-up to refine strategies and answer questions"
+        ],
+        "benefits": [
+          "Clearer day-to-day food decisions",
+          "Meal ideas that fit your culture and routine",
+          "Support coordinating with your medical care plan",
+          "Education without fear-based messaging"
+        ],
+        "faqs": [
+          {
+            "question": "Can nutrition counseling replace my medication?",
+            "answer": "No. Never change medications without your clinician. NEED supports nutrition education only."
+          },
+          {
+            "question": "Do I need lab results?",
+            "answer": "Sharing relevant clinician guidance or labs (if you choose) can help tailor education. It is optional unless your clinician requires it."
+          },
+          {
+            "question": "Is this suitable for type 1 and type 2?",
+            "answer": "We can discuss nutrition education for different contexts, always in coordination with your medical team."
+          }
+        ],
+        "related": [
+          {
+            "title": "Diabetes nutrition reading",
+            "href": "/resources"
+          },
+          {
+            "title": "Nutrition counseling",
+            "href": "/services/nutrition-counseling"
+          },
+          {
+            "title": "Contact NEED",
+            "href": "/contact"
+          }
+        ]
+      },
+      "hypertension-nutrition": {
+        "title": "Hypertension nutrition",
+        "summary": "Heart-conscious nutrition guidance to support blood pressure care with practical food strategies.",
+        "description": "Nutrition counseling focused on patterns that support blood pressure management — sodium awareness, balanced plates, and sustainable habits — alongside your clinician’s advice.",
+        "audience": [
+          "Adults managing high blood pressure with clinical care",
+          "People seeking lower-sodium, culturally familiar meal ideas",
+          "Clients wanting lifestyle nutrition support"
+        ],
+        "approachIntro": "We translate clinical nutrition principles into daily Ethiopian-friendly meal choices.",
+        "approach": [
+          "Review of your goals and clinician recommendations",
+          "Education on sodium, potassium-rich foods, and balanced meals",
+          "Practical swaps using familiar ingredients",
+          "Follow-up to reinforce habits and troubleshoot barriers"
+        ],
+        "benefits": [
+          "Practical grocery and cooking guidance",
+          "Support for sustainable lifestyle changes",
+          "Education aligned with your medical care",
+          "Culturally grounded recommendations"
+        ],
+        "faqs": [
+          {
+            "question": "Will this lower my blood pressure by a set number?",
+            "answer": "NEED does not promise specific clinical outcomes. Nutrition is one part of care directed by your clinician."
+          },
+          {
+            "question": "Do you provide meal plans?",
+            "answer": "Personalized meal guidance is commonly included; details are confirmed in consultation."
+          },
+          {
+            "question": "Should I stop my medication if I change my diet?",
+            "answer": "No. Only your clinician should adjust medications."
+          }
+        ],
+        "related": [
+          {
+            "title": "Hypertension & nutrition",
+            "href": "/resources"
+          },
+          {
+            "title": "Cholesterol nutrition",
+            "href": "/services/cholesterol-nutrition"
+          },
+          {
+            "title": "Book a consultation",
+            "href": "/book"
+          }
+        ]
+      },
+      "cholesterol-nutrition": {
+        "title": "Cholesterol nutrition",
+        "summary": "Food-focused guidance to support healthy lipid patterns as part of your overall care.",
+        "description": "Nutrition counseling that helps you understand fats, fiber, and meal patterns relevant to cholesterol management — without miracle claims, and always alongside clinical care.",
+        "audience": [
+          "Adults with clinician-identified lipid concerns",
+          "People seeking clearer guidance on fats and fiber",
+          "Clients wanting sustainable dietary pattern changes"
+        ],
+        "approachIntro": "We focus on realistic food pattern changes you can keep.",
+        "approach": [
+          "Review of goals and any clinician nutrition advice you have",
+          "Education on dietary patterns that support heart health",
+          "Personalized meal and shopping guidance",
+          "Follow-up and refinement over time"
+        ],
+        "benefits": [
+          "Clearer understanding of food choices that matter",
+          "Practical meal pattern support",
+          "Education free of extreme or fear-based diets",
+          "Alignment with your clinician’s plan"
+        ],
+        "faqs": [
+          {
+            "question": "Can diet alone fix cholesterol?",
+            "answer": "Nutrition can support lipid health, but it is not a guaranteed cure. Follow your clinician’s overall plan."
+          },
+          {
+            "question": "Will you tell me to eliminate all fat?",
+            "answer": "No. Guidance focuses on balanced, sustainable patterns rather than extreme elimination."
+          },
+          {
+            "question": "How often are follow-ups?",
+            "answer": "Follow-up cadence is personalized after your first consultation."
+          }
+        ],
+        "related": [
+          {
+            "title": "Heart-healthy eating",
+            "href": "/resources"
+          },
+          {
+            "title": "Hypertension nutrition",
+            "href": "/services/hypertension-nutrition"
+          },
+          {
+            "title": "Book a consultation",
+            "href": "/book"
+          }
+        ]
+      },
+      "personalized-meal-planning": {
+        "title": "Personalized meal planning",
+        "summary": "Custom meal guidance rooted in Abinet’s Diet — Ethiopian foods, metabolic context, and your goals.",
+        "description": "Personalized meal planning that turns nutrition science into practical plates — using Ethiopia’s food heritage where possible, and adapting to your preferences, schedule, and goals.",
+        "audience": [
+          "Individuals who want structured meal guidance",
+          "Clients already in counseling who need a concrete plan",
+          "People seeking culturally authentic, personalized menus"
+        ],
+        "approachIntro": "Plans are built from your assessment, preferences, and lifestyle — not generic templates.",
+        "approach": [
+          "Goal and preference intake",
+          "Assessment of routine, budget, and food access",
+          "Customized meal structure and sample menus",
+          "Adjustments based on feedback and progress"
+        ],
+        "benefits": [
+          "A plan tailored to you — not a copy-paste diet",
+          "Meals that can reflect Ethiopian culinary heritage",
+          "Clarity on portions, patterns, and prep",
+          "Room to adapt as life changes"
+        ],
+        "faqs": [
+          {
+            "question": "Is this the same as Abinet’s Diet?",
+            "answer": "Abinet’s Diet is the philosophy behind personalized planning — metabolic insight plus cultural authenticity. Your plan is individualized."
+          },
+          {
+            "question": "Do you deliver meals?",
+            "answer": "This service is meal planning and counseling. NEED Foods dining/delivery options, if available, are separate — confirm current offerings with NEED."
+          },
+          {
+            "question": "How detailed is the plan?",
+            "answer": "Depth varies by package and needs — from pattern guidance to more detailed menus. Confirmed at booking."
+          }
+        ],
+        "related": [
+          {
+            "title": "About Abinet’s Diet",
+            "href": "/about"
+          },
+          {
+            "title": "Nutrition counseling",
+            "href": "/services/nutrition-counseling"
+          },
+          {
+            "title": "Book a consultation",
+            "href": "/book"
+          }
+        ]
+      }
+    }
+  },
+  "Consultancy": {
+    "meta": {
+      "title": "Consultancy",
+      "description": "Institutional nutrition consultancy from NEED — NGO, government, corporate wellness, nutrition communication, and SBCC programs."
+    },
+    "hero": {
+      "eyebrow": "Consultancy",
+      "title": "Institutional nutrition consultancy",
+      "subtitle": "Evidence-informed programs for NGOs, government partners, and corporates — from workplace wellness to nutrition communication and SBCC."
+    },
+    "offerings": {
+      "eyebrow": "What we offer",
+      "title": "Consultancy pathways",
+      "subtitle": "Modular support designed for institutional goals — not a one-size-fits-all package.",
+      "items": [
+        {
+          "title": "NGO programs",
+          "body": "Advisory and implementation support for nutrition-sensitive projects, community communication, and partner capacity building."
+        },
+        {
+          "title": "Government",
+          "body": "Public nutrition communication, campaign design, and advisory input aligned with institutional priorities."
+        },
+        {
+          "title": "Corporate wellness",
+          "body": "Employee screening, personalized coaching pathways, workplace workshops, and canteen nutrition guidance."
+        },
+        {
+          "title": "Nutrition communication",
+          "body": "Clear, culturally grounded messaging for campaigns, media, and institutional audiences."
+        },
+        {
+          "title": "Social & behavior-change communication (SBCC)",
+          "body": "Audience insight, message design, and channel strategy to support healthier practices at scale."
+        },
+        {
+          "title": "Institutional programs",
+          "body": "End-to-end program design, facilitation, and reporting support for multi-stakeholder nutrition initiatives."
+        }
+      ]
+    },
+    "programs": {
+      "eyebrow": "How we engage",
+      "title": "A clear institutional process",
+      "subtitle": "From discovery to delivery — transparent steps so partners know what to expect.",
+      "steps": [
+        "Discovery call to clarify goals, audience, and constraints",
+        "Scope proposal with deliverables, timeline, and responsibilities",
+        "Program design and content / protocol development",
+        "Delivery — workshops, screening, campaigns, or advisory support",
+        "Reporting, learning capture, and recommended next steps"
+      ]
+    },
+    "cases": {
+      "eyebrow": "Approved projects",
+      "title": "Selected case highlights",
+      "subtitle": "Published examples from NEED’s institutional work. Additional case studies can be added with partner approval.",
+      "items": [
+        {
+          "title": "Project Gursha — Green Nutrition Campaign (Unilever Ethiopia)",
+          "body": "Designed and led a landmark campaign promoting Ethiopia’s traditional green vegetables paired with Knorr seasoning. Curated 20 nutritious Ethiopian dishes for 100+ participants, blending nutrition science with culinary heritage.",
+          "tags": [
+            "Corporate",
+            "Campaign",
+            "Unilever",
+            "SBCC"
+          ]
+        },
+        {
+          "title": "Corporate employee nutrition screening & coaching",
+          "body": "Body composition screening, personalized health reports, and coaching pathways for workplace teams — including HQ Addis and manufacturing contexts — with awareness raised across 600+ staff in featured programs.",
+          "tags": [
+            "Corporate wellness",
+            "Screening",
+            "Training"
+          ]
+        }
+      ]
+    },
+    "audiences": {
+      "eyebrow": "Who partners with NEED",
+      "title": "Built for institutional decision-makers",
+      "subtitle": "Whether you need a campaign, a workplace program, or ongoing advisory support — we route you to the right conversation.",
+      "items": [
+        {
+          "title": "NGO & development partners",
+          "body": "Program design, nutrition communication, and community-facing initiatives."
+        },
+        {
+          "title": "Government & public institutions",
+          "body": "Public messaging, capacity support, and nutrition communication strategy."
+        },
+        {
+          "title": "Corporate & enterprise",
+          "body": "Employee wellness, screening, training, and canteen nutrition programs."
+        }
+      ],
+      "cta": "Start a partnership"
+    },
+    "cta": {
+      "title": "Ready to scope a program?",
+      "subtitle": "Tell us about your organization and goals — we will respond through the partnerships inbox workflow.",
+      "partner": "Partner With Us",
+      "contact": "Contact NEED"
+    }
+  },
+  "Partnerships": {
+    "meta": {
+      "title": "Partnerships",
+      "description": "Partner with NEED Nutritional Products and Services PLC for NGO, government, and corporate nutrition programs."
+    },
+    "hero": {
+      "eyebrow": "Partnerships",
+      "title": "Work with NEED",
+      "subtitle": "Organizations partner with NEED for workplace wellness, nutrition communication, SBCC, and institutional programs — locally and internationally."
+    },
+    "intro": {
+      "eyebrow": "Why partner",
+      "title": "Three ways organizations work with us",
+      "subtitle": "Choose the pathway that matches your mandate. Every inquiry uses the partnerships form — not the individual consultation form.",
+      "pathways": [
+        {
+          "title": "Program delivery",
+          "body": "Screening, coaching, workshops, and campaign execution with clear deliverables."
+        },
+        {
+          "title": "Advisory & strategy",
+          "body": "Nutrition communication, SBCC, and institutional advisory support."
+        },
+        {
+          "title": "Long-term partnership",
+          "body": "Multi-phase collaboration with reporting, learning, and scale-up options."
+        }
+      ]
+    },
+    "partners": {
+      "eyebrow": "Trusted collaborators",
+      "title": "Organizations we have worked with",
+      "subtitle": "UN agencies, global NGOs, governments, and corporate partners.",
+      "items": [
+        "IFPRI",
+        "USAID",
+        "Nutrition International",
+        "Ethiopian Airlines",
+        "UNICEF",
+        "GAIN",
+        "TechnoServe",
+        "Mercy Corps",
+        "Unilever"
+      ]
+    },
+    "formSection": {
+      "eyebrow": "Start here",
+      "title": "Tell us about your project",
+      "subtitle": "Share your organization details and goals. This form is for NGO, government, and corporate partners only.",
+      "bullets": [
+        "Dedicated partnerships pathway (not the individual booking form)",
+        "We review scope, timeline, and service fit before proposing next steps",
+        "Budget is optional — share a range if helpful"
+      ],
+      "consultancyLink": "Explore consultancy services"
+    },
+    "form": {
+      "title": "Partnership inquiry",
+      "subtitle": "Required fields are marked. Submission email delivery is finalized in Phase 11.",
+      "organization": "Organization",
+      "contactPerson": "Contact person",
+      "email": "Work email",
+      "phone": "Phone",
+      "organizationType": "Organization type",
+      "location": "Location",
+      "serviceRequired": "Service required",
+      "projectDescription": "Project description",
+      "timeline": "Timeline",
+      "budget": "Budget (optional)",
+      "message": "Additional message (optional)",
+      "submit": "Submit partnership inquiry",
+      "submitting": "Submitting…",
+      "success": "Thanks — your partnership inquiry was validated. Email delivery to the partnerships inbox will be enabled in Phase 11.",
+      "error": "Please fix the highlighted fields and try again.",
+      "note": "By submitting, you agree to be contacted about this partnership inquiry. Do not include confidential health data about individuals.",
+      "organizationTypes": {
+        "ngo": "NGO / Non-profit",
+        "government": "Government",
+        "corporate": "Corporate",
+        "media": "Media",
+        "other": "Other"
+      },
+      "services": {
+        "corporate-wellness": "Corporate wellness",
+        "nutrition-communication": "Nutrition communication",
+        "sbcc": "Social & behavior-change communication",
+        "institutional-program": "Institutional program",
+        "research-advisory": "Research / advisory",
+        "other": "Other"
+      }
+    }
+  },
+  "Sewegna": {
+    "meta": {
+      "title": "Sewegna",
+      "description": "Sewegna health and nutrition media from NEED — TV, radio, podcasts, and interviews with Abinet Tekle Hagos."
+    },
+    "hero": {
+      "eyebrow": "Sewegna",
+      "title": "Health & nutrition media",
+      "subtitle": "TV, radio, podcasts, and interviews from NEED — including Sewegna on Fana TV and landmark nutrition conversations across Ethiopia."
+    },
+    "channels": {
+      "eyebrow": "Channels",
+      "title": "Where NEED shows up",
+      "subtitle": "Public health communication across TV, radio, interviews, and press.",
+      "items": [
+        {
+          "title": "TV",
+          "body": "Sewegna Health & Nutrition Show on Fana TV and other televised appearances."
+        },
+        {
+          "title": "Radio",
+          "body": "Afro FM nutrition radio and Amharic nutrition programs."
+        },
+        {
+          "title": "Podcast & digital",
+          "body": "On-demand conversations and digital clips for wider reach."
+        },
+        {
+          "title": "Interviews & press",
+          "body": "Expert interviews, press features, and media collaborations."
+        }
+      ]
+    },
+    "archive": {
+      "eyebrow": "Episode archive",
+      "title": "Watch & listen",
+      "subtitle": "Episode pages support video embeds, optional audio, topics, and written recaps. Add YouTube IDs when available."
+    },
+    "common": {
+      "play": "Play episode",
+      "videoPlaceholder": "[YouTube video ID required from NEED]",
+      "audioLabel": "Audio",
+      "audioFallback": "Your browser does not support audio playback.",
+      "audioPlaceholder": "Optional audio file — add URL when available.",
+      "descriptionLabel": "About this episode",
+      "recapLabel": "Written recap",
+      "topicsLabel": "Topics",
+      "relatedLabel": "Related",
+      "moreEpisodes": "More episodes",
+      "backToArchive": "Back to Sewegna"
+    },
+    "cta": {
+      "title": "Media, TV, or radio inquiry?",
+      "subtitle": "Use the media form — not the individual consultation form — for interviews, appearances, and press requests.",
+      "button": "Media Inquiry"
+    },
+    "episodes": {
+      "first-nutrition-tv-show": {
+        "youtubeId": "LrVzSzN3Bvc",
+        "title": "The First Nutrition TV Show",
+        "summary": "A landmark chapter in Ethiopian public nutrition communication.",
+        "description": "Ethiopia's first nutrition TV programming helped bring evidence-informed food and health conversations into living rooms nationwide — part of Abinet Tekle Hagos's media pioneering work.",
+        "recap": "This episode highlights the origins and impact of televised nutrition education in Ethiopia, and why culturally grounded messaging matters for public health.",
+        "topics": [
+          "TV",
+          "Public health",
+          "Nutrition education",
+          "Media pioneer"
+        ],
+        "meta": "Sewegna / TV · Archive highlight",
+        "related": [
+          {
+            "title": "Browse all Sewegna episodes",
+            "href": "/sewegna"
+          },
+          {
+            "title": "Nutrition resources",
+            "href": "/resources"
+          },
+          {
+            "title": "Media inquiry",
+            "href": "/media-inquiries"
+          }
+        ]
+      },
+      "weight-loss-transformation-story": {
+        "youtubeId": "yZx8eWK6Vco",
+        "title": "Weight Loss Transformation Story",
+        "summary": "A media conversation on personalized nutrition journeys.",
+        "description": "A televised discussion exploring real-world weight management through personalized nutrition counseling — focused on sustainable habits rather than quick fixes.",
+        "recap": "Key takeaways emphasize individualized plans, clinical coordination when needed, and culturally familiar foods as part of lasting change.",
+        "topics": [
+          "Weight management",
+          "Counseling",
+          "TV"
+        ],
+        "meta": "TV · Feature",
+        "related": [
+          {
+            "title": "Browse all Sewegna episodes",
+            "href": "/sewegna"
+          },
+          {
+            "title": "Nutrition resources",
+            "href": "/resources"
+          },
+          {
+            "title": "Media inquiry",
+            "href": "/media-inquiries"
+          }
+        ]
+      },
+      "covid-19-and-nutrition": {
+        "youtubeId": "DvvVvxdZF3o",
+        "title": "COVID-19 & Nutrition",
+        "summary": "Public guidance on nutrition during a public health crisis.",
+        "description": "A media segment addressing nutrition considerations during COVID-19 — practical food and wellness messaging for households navigating uncertainty.",
+        "recap": "The discussion connects everyday eating patterns with resilience, without making medical claims beyond nutrition education.",
+        "topics": [
+          "COVID-19",
+          "Public health",
+          "Household nutrition"
+        ],
+        "meta": "TV · Public health",
+        "related": [
+          {
+            "title": "Browse all Sewegna episodes",
+            "href": "/sewegna"
+          },
+          {
+            "title": "Nutrition resources",
+            "href": "/resources"
+          },
+          {
+            "title": "Media inquiry",
+            "href": "/media-inquiries"
+          }
+        ]
+      },
+      "sewegna-fana-tv-highlights": {
+        "youtubeId": "VpaSYYuQMbk",
+        "title": "Sewegna on Fana TV — Highlights",
+        "summary": "Selections from the Sewegna Health & Nutrition Show.",
+        "description": "Sewegna brings health and nutrition topics to Fana TV audiences in Amharic — covering practical guidance, cultural foods, and evidence-informed conversation.",
+        "recap": "Highlights showcase the show's role in making nutrition a household conversation across Ethiopia.",
+        "topics": [
+          "Sewegna",
+          "Fana TV",
+          "Amharic",
+          "Health communication"
+        ],
+        "meta": "Sewegna · Fana TV",
+        "related": [
+          {
+            "title": "Browse all Sewegna episodes",
+            "href": "/sewegna"
+          },
+          {
+            "title": "Nutrition resources",
+            "href": "/resources"
+          },
+          {
+            "title": "Media inquiry",
+            "href": "/media-inquiries"
+          }
+        ]
+      },
+      "afro-fm-nutrition-radio": {
+        "youtubeId": "y737ZtxlVEM",
+        "title": "Afro FM Nutrition Radio",
+        "summary": "English-language nutrition radio programming.",
+        "description": "Ethiopia's first English nutrition radio show on Afro FM — bringing evidence-informed nutrition conversations to listeners in Addis Ababa and beyond.",
+        "recap": "This program expanded nutrition communication beyond TV, reaching radio audiences with accessible, practical guidance in English.",
+        "topics": [
+          "Radio",
+          "Afro FM",
+          "English",
+          "Nutrition education"
+        ],
+        "meta": "Radio · Afro FM",
+        "related": [
+          {
+            "title": "Browse all Sewegna episodes",
+            "href": "/sewegna"
+          },
+          {
+            "title": "Nutrition resources",
+            "href": "/resources"
+          },
+          {
+            "title": "Media inquiry",
+            "href": "/media-inquiries"
+          }
+        ]
+      },
+      "ehuden-be-ebs-appearance": {
+        "youtubeId": "UI1HqQ6giEI",
+        "title": "Ehuden Be EBS Appearance",
+        "summary": "Interview and appearance highlights from EBS.",
+        "description": "Television appearances on Ehuden Be EBS featuring nutrition expertise, public Q&A style conversation, and practical guidance for viewers.",
+        "recap": "These appearances extend NEED's media footprint beyond Sewegna into broader entertainment and lifestyle formats.",
+        "topics": [
+          "Interview",
+          "EBS",
+          "TV"
+        ],
+        "meta": "Interview · EBS",
+        "related": [
+          {
+            "title": "Browse all Sewegna episodes",
+            "href": "/sewegna"
+          },
+          {
+            "title": "Nutrition resources",
+            "href": "/resources"
+          },
+          {
+            "title": "Media inquiry",
+            "href": "/media-inquiries"
+          }
+        ]
+      }
+    }
+  },
+  "MediaInquiries": {
+    "meta": {
+      "title": "Media Inquiries",
+      "description": "Request interviews, expert quotes, press features, or Sewegna collaborations with NEED and Abinet Tekle Hagos."
+    },
+    "hero": {
+      "eyebrow": "Media inquiries",
+      "title": "Work with NEED on air & in press",
+      "subtitle": "TV, radio, podcast, print, and digital teams — use this form for interviews, appearances, and press requests."
+    },
+    "topics": {
+      "eyebrow": "Media & Sewegna",
+      "title": "How media teams collaborate with NEED",
+      "subtitle": "From expert interviews to Sewegna collaborations — tell us your format and deadline.",
+      "sewegnaCta": "Browse Sewegna episodes",
+      "items": [
+        {
+          "title": "TV & Sewegna",
+          "body": "Guest segments, show collaborations, and televised nutrition conversations."
+        },
+        {
+          "title": "Radio & podcast",
+          "body": "Live or recorded interviews in Amharic or English."
+        },
+        {
+          "title": "Press & digital",
+          "body": "Expert quotes, features, and online editorial collaborations."
+        },
+        {
+          "title": "Campaign support",
+          "body": "Nutrition communication and campaign messaging partnerships."
+        },
+        {
+          "title": "Public appearances",
+          "body": "Panels, launches, and institutional media events."
+        },
+        {
+          "title": "Archive & assets",
+          "body": "Requests related to existing Sewegna or press materials."
+        }
+      ]
+    },
+    "aside": {
+      "eyebrow": "Media pathway",
+      "title": "Use the media form",
+      "subtitle": "This inbox is separate from individual consultations and institutional partnerships.",
+      "bullets": [
+        "Share your outlet, format, and deadline clearly",
+        "Do not send confidential patient or client health details",
+        "We will respond through the media inquiry workflow"
+      ]
+    },
+    "form": {
+      "title": "Media inquiry form",
+      "subtitle": "Required fields are marked. Email delivery is finalized in Phase 11.",
+      "name": "Your name",
+      "mediaOrganization": "Media organization",
+      "email": "Email",
+      "phone": "Phone",
+      "mediaType": "Media type",
+      "inquiryType": "Inquiry type",
+      "deadline": "Deadline",
+      "message": "Message",
+      "submit": "Submit media inquiry",
+      "submitting": "Submitting…",
+      "success": "Thanks — your media inquiry was validated. Email delivery to the media inbox will be enabled in Phase 11.",
+      "error": "Please fix the highlighted fields and try again.",
+      "note": "For TV, radio, podcast, and press only. Individuals seeking counseling should use Book a Consultation.",
+      "mediaTypes": {
+        "tv": "TV",
+        "radio": "Radio",
+        "podcast": "Podcast",
+        "print": "Print",
+        "online": "Online / digital",
+        "other": "Other"
+      },
+      "inquiryTypes": {
+        "interview": "Interview",
+        "expert-quote": "Expert quote",
+        "press": "Press feature",
+        "appearance": "On-air / event appearance",
+        "collaboration": "Show / campaign collaboration",
+        "other": "Other"
+      }
+    }
+  },
+  "Resources": {
+    "meta": {
+      "title": "Resources",
+      "description": "Nutrition articles and guides from NEED — healthy eating, weight management, diabetes, hypertension, cholesterol, maternal and child nutrition, and Sewegna recaps."
+    },
+    "hero": {
+      "eyebrow": "Resources",
+      "title": "Articles & guides",
+      "subtitle": "Practical nutrition reading rooted in Ethiopian food culture. Filter by topic or language."
+    },
+    "index": {
+      "eyebrow": "Library",
+      "title": "Browse by topic",
+      "subtitle": "Educational content only — not a substitute for personalized counseling or medical care.",
+      "empty": "No articles match these filters. Try another category or language.",
+      "loading": "Loading resources…"
+    },
+    "filters": {
+      "category": "Category",
+      "language": "Language",
+      "all": "All",
+      "en": "English",
+      "am": "Amharic"
+    },
+    "languages": {
+      "en": "English",
+      "am": "Amharic",
+      "both": "EN · አማ"
+    },
+    "categories": {
+      "healthy-eating": "Healthy Eating",
+      "weight-management": "Weight Management",
+      "diabetes": "Diabetes",
+      "hypertension": "Hypertension",
+      "cholesterol": "Cholesterol",
+      "maternal-nutrition": "Maternal Nutrition",
+      "child-nutrition": "Child Nutrition",
+      "general-nutrition": "General Nutrition",
+      "sewegna-recaps": "Sewegna Recaps"
+    },
+    "common": {
+      "readMore": "Read more",
+      "relatedTitle": "Related articles",
+      "backToIndex": "All resources",
+      "bookCta": "Book a Consultation",
+      "sewegnaLink": "Watch related Sewegna episodes",
+      "disclaimer": "This article is for general education. It is not medical advice and does not replace care from your clinician or a personalized consultation with NEED."
+    },
+    "articles": {
+      "ethiopian-plate-basics": {
+        "title": "Ethiopian plate basics for everyday health",
+        "excerpt": "A simple way to build balanced plates using injera, legumes, vegetables, and familiar Ethiopian flavors.",
+        "seoTitle": "Ethiopian plate basics for everyday health",
+        "seoDescription": "A simple way to build balanced plates using injera, legumes, vegetables, and familiar Ethiopian flavors.",
+        "coverAlt": "Ethiopian plate basics for everyday health cover image placeholder",
+        "sections": [
+          {
+            "heading": "Start with what you already eat",
+            "body": "Healthy eating does not require abandoning Ethiopian cuisine. Injera, shiro, lentils, greens, and vegetable wot can anchor a balanced day when portions and variety are intentional."
+          },
+          {
+            "heading": "Build color and protein into the plate",
+            "body": "Aim for vegetables or legumes alongside staples, and notice how energy and fullness change when meals include fiber-rich sides. Personal targets differ — counseling can refine this for you."
+          },
+          {
+            "heading": "When to get personal guidance",
+            "body": "If you manage a medical condition, are pregnant, or need a structured plan, book a consultation rather than relying on general articles alone."
+          }
+        ]
+      },
+      "sustainable-weight-habits": {
+        "title": "Sustainable habits for weight management",
+        "excerpt": "Why slow, personalized changes beat extreme diets — and how to think about progress without miracle promises.",
+        "seoTitle": "Sustainable habits for weight management",
+        "seoDescription": "Why slow, personalized changes beat extreme diets — and how to think about progress without miracle promises.",
+        "coverAlt": "Sustainable habits for weight management cover image placeholder",
+        "sections": [
+          {
+            "heading": "Habits over hacks",
+            "body": "Sustainable weight management focuses on routines you can keep: meal rhythm, sleep, movement you enjoy, and food patterns that fit your culture and schedule."
+          },
+          {
+            "heading": "No guaranteed outcomes",
+            "body": "NEED does not promise specific kilogram results. Progress depends on many factors and should be reviewed individually with appropriate clinical care when needed."
+          },
+          {
+            "heading": "Next step",
+            "body": "If you want a personalized plan, use Book a Consultation. For workplace programs, use the partnerships pathway instead."
+          }
+        ]
+      },
+      "diabetes-friendly-ethiopian-meals": {
+        "title": "Diabetes-friendly Ethiopian meal ideas",
+        "excerpt": "Practical plate ideas that respect Ethiopian food culture while supporting diabetes nutrition education.",
+        "seoTitle": "Diabetes-friendly Ethiopian meal ideas",
+        "seoDescription": "Practical plate ideas that respect Ethiopian food culture while supporting diabetes nutrition education.",
+        "coverAlt": "Diabetes-friendly Ethiopian meal ideas cover image placeholder",
+        "sections": [
+          {
+            "heading": "Education, not treatment",
+            "body": "Nutrition counseling supports diabetes care but never replaces medication or instructions from your clinician. Do not change prescriptions based on an article."
+          },
+          {
+            "heading": "Familiar foods, thoughtful patterns",
+            "body": "Balanced plates, consistent meal timing, and awareness of carbohydrate patterns can be discussed using foods you already know — injera, legumes, vegetables, and dairy where appropriate."
+          },
+          {
+            "heading": "Get tailored support",
+            "body": "Book a diabetes nutrition consultation for guidance matched to your clinician’s plan and your daily routine."
+          }
+        ]
+      },
+      "sodium-aware-cooking-at-home": {
+        "title": "Sodium-aware cooking at home",
+        "excerpt": "Simple kitchen swaps and seasoning ideas to support blood-pressure-conscious cooking without bland meals.",
+        "seoTitle": "Sodium-aware cooking at home",
+        "seoDescription": "Simple kitchen swaps and seasoning ideas to support blood-pressure-conscious cooking without bland meals.",
+        "coverAlt": "Sodium-aware cooking at home cover image placeholder",
+        "sections": [
+          {
+            "heading": "Flavor without excess salt",
+            "body": "Herbs, spices, garlic, lemon, and careful use of berbere-style blends can keep meals enjoyable while you watch sodium — always within your clinician’s guidance."
+          },
+          {
+            "heading": "Cooking patterns that help",
+            "body": "Cooking more at home, tasting before adding salt, and balancing vegetables with staples are practical starting points for many households."
+          },
+          {
+            "heading": "Personalize with NEED",
+            "body": "Hypertension nutrition counseling can turn these ideas into a plan that fits your household and medical care."
+          }
+        ]
+      },
+      "fiber-fats-and-heart-health": {
+        "title": "Fiber, fats, and heart-conscious eating",
+        "excerpt": "A calm overview of dietary patterns that support lipid health — without extreme elimination diets.",
+        "seoTitle": "Fiber, fats, and heart-conscious eating",
+        "seoDescription": "A calm overview of dietary patterns that support lipid health — without extreme elimination diets.",
+        "coverAlt": "Fiber, fats, and heart-conscious eating cover image placeholder",
+        "sections": [
+          {
+            "heading": "Patterns matter more than perfection",
+            "body": "Fiber-rich legumes, vegetables, and balanced fat choices can support heart-conscious eating. Extreme elimination is rarely the first or best step."
+          },
+          {
+            "heading": "Work with your clinician",
+            "body": "Lab results and medication decisions belong with your medical team. Nutrition education complements — it does not replace — clinical care."
+          },
+          {
+            "heading": "Go deeper",
+            "body": "Explore cholesterol nutrition services or book a consultation for a personalized approach."
+          }
+        ]
+      },
+      "nutrition-in-pregnancy-basics": {
+        "title": "Nutrition in pregnancy — basics",
+        "excerpt": "General education on nourishing pregnancy with familiar foods — always alongside antenatal clinical care.",
+        "seoTitle": "Nutrition in pregnancy — basics",
+        "seoDescription": "General education on nourishing pregnancy with familiar foods — always alongside antenatal clinical care.",
+        "coverAlt": "Nutrition in pregnancy — basics cover image placeholder",
+        "sections": [
+          {
+            "heading": "Clinical care comes first",
+            "body": "Pregnancy nutrition articles are educational only. Follow your antenatal clinician’s advice for supplements, screening, and medical decisions."
+          },
+          {
+            "heading": "Steady, diverse meals",
+            "body": "Regular meals with vegetables, legumes, staples, and adequate fluids support many pregnancies. Individual needs vary widely."
+          },
+          {
+            "heading": "Ask for tailored counseling",
+            "body": "NEED can provide personalized maternal nutrition counseling when appropriate — never as a substitute for obstetric care."
+          }
+        ]
+      },
+      "feeding-toddlers-with-local-foods": {
+        "title": "Feeding toddlers with local foods",
+        "excerpt": "Ideas for introducing diverse Ethiopian family foods to young children — gently and safely.",
+        "seoTitle": "Feeding toddlers with local foods",
+        "seoDescription": "Ideas for introducing diverse Ethiopian family foods to young children — gently and safely.",
+        "coverAlt": "Feeding toddlers with local foods cover image placeholder",
+        "sections": [
+          {
+            "heading": "Family foods, age-appropriate textures",
+            "body": "Many Ethiopian household foods can be adapted for toddlers with safe textures and gradual introduction. Watch for choking risks and follow pediatric guidance."
+          },
+          {
+            "heading": "Growth is individual",
+            "body": "Appetite and growth patterns differ. Use your child’s clinician for growth concerns; use NEED for general nutrition education and meal planning support where relevant."
+          },
+          {
+            "heading": "Language note",
+            "body": "Amharic clinical guidance should be human-reviewed before publication. This English draft is a placeholder structure for CMS content."
+          }
+        ]
+      },
+      "reading-nutrition-labels-simply": {
+        "title": "Reading nutrition labels — simply",
+        "excerpt": "A plain-language walkthrough of packaged-food labels so you can compare products with less confusion.",
+        "seoTitle": "Reading nutrition labels — simply",
+        "seoDescription": "A plain-language walkthrough of packaged-food labels so you can compare products with less confusion.",
+        "coverAlt": "Reading nutrition labels — simply cover image placeholder",
+        "sections": [
+          {
+            "heading": "What to glance at first",
+            "body": "Serving size, energy, and key nutrients help you compare similar products. Labels are tools — not moral judgments about food."
+          },
+          {
+            "heading": "Context beats fear",
+            "body": "One packaged item rarely makes or breaks a diet. Patterns across days and weeks matter more than a single label."
+          },
+          {
+            "heading": "Need a plan?",
+            "body": "General nutrition counseling can help you apply label literacy to your real shopping and cooking routine."
+          }
+        ]
+      },
+      "sewegna-recap-green-vegetables": {
+        "title": "Sewegna recap: green vegetables on the Ethiopian plate",
+        "excerpt": "A written recap of Sewegna themes on traditional greens — collards, cabbage, Swiss chard — and everyday cooking.",
+        "seoTitle": "Sewegna recap: green vegetables on the Ethiopian plate",
+        "seoDescription": "A written recap of Sewegna themes on traditional greens — collards, cabbage, Swiss chard — and everyday cooking.",
+        "coverAlt": "Sewegna recap: green vegetables on the Ethiopian plate cover image placeholder",
+        "sections": [
+          {
+            "heading": "From screen to kitchen",
+            "body": "Sewegna conversations often return to Ethiopia’s green vegetables — affordable, familiar, and central to many traditional meals."
+          },
+          {
+            "heading": "Campaign echoes",
+            "body": "Public campaigns such as Green Gursha highlighted greens alongside culinary heritage. Recaps here summarize education themes, not medical outcomes."
+          },
+          {
+            "heading": "Watch more",
+            "body": "Visit the Sewegna archive for video episodes, and book a consultation if you want personalized meal guidance."
+          }
+        ]
+      }
+    }
+  },
+  "Testimonials": {
+    "meta": {
+      "title": "Testimonials",
+      "description": "Consented client stories and transformations from NEED Nutritional — plus where to find NEED Foods recognition on Google, TripAdvisor, and Wanderlog."
+    },
+    "hero": {
+      "eyebrow": "Testimonials",
+      "title": "Stories from people we have worked with",
+      "subtitle": "Published only with recorded consent. Transformations and quotes reflect approved NEED case stories — not invented reviews."
+    },
+    "consent": {
+      "label": "Consent",
+      "body": "Testimonials and case studies appear only with recorded consent. Client health details are limited to what NEED has approved for publication. Additional reviews can be added later via the CMS."
+    },
+    "quotes": {
+      "eyebrow": "Client voices",
+      "title": "What clients share",
+      "subtitle": "Short quotes drawn from approved transformation journeys. Full case cards appear below.",
+      "items": [
+        {
+          "quote": "After a difficult health chapter, personalized nutrition helped me rebuild energy and confidence — one sustainable step at a time.",
+          "name": "Client — consented case",
+          "role": "Weight-loss journey · ~1 year",
+          "tone": "orange"
+        },
+        {
+          "quote": "Balancing motherhood and my health felt impossible until the plan fit my real life — not a generic diet.",
+          "name": "Client — consented case",
+          "role": "Mother of two · multi-year journey",
+          "tone": "blue"
+        },
+        {
+          "quote": "Healthy weight gain restored my vitality. The counseling was targeted, cultural, and practical.",
+          "name": "Hanan",
+          "role": "Healthy weight gain · 3 months",
+          "tone": "green"
+        }
+      ]
+    },
+    "recognition": {
+      "eyebrow": "Public recognition",
+      "title": "Find NEED Foods on major platforms",
+      "subtitle": "NEED Foods has been listed and discussed on traveler and review platforms. Open the live listing for current ratings — we do not hard-code star scores here.",
+      "openLink": "Open listing",
+      "websiteCta": "Visit needproducts.com",
+      "note": "Google review widgets can be embedded later when NEED provides a Place ID. Until then, use the official listings below.",
+      "platforms": [
+        {
+          "name": "Google",
+          "subtitle": "NEED Foods · Addis Ababa",
+          "description": "Search and review listings for NEED Foods in Addis Ababa.",
+          "href": "https://www.google.com/search?q=NEED+Foods+Addis+Ababa",
+          "tone": "orange"
+        },
+        {
+          "name": "TripAdvisor",
+          "subtitle": "Healthy dining · Addis Ababa",
+          "description": "Traveler listing for NEED Foods as a healthy dining destination.",
+          "href": "https://www.tripadvisor.com/Search?q=NEED%20Foods%20Addis%20Ababa",
+          "tone": "green"
+        },
+        {
+          "name": "Wanderlog",
+          "subtitle": "Top African restaurants recognition",
+          "description": "Featured among recognized Addis Ababa dining highlights on Wanderlog.",
+          "href": "https://wanderlog.com/search?q=NEED%20Foods%20Addis%20Ababa",
+          "tone": "blue"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to start your own journey?",
+      "subtitle": "Book a consultation for personalized nutrition support with NEED.",
+      "book": "Book a Consultation",
+      "about": "About NEED"
+    }
+  },
+  "Consultation": {
+    "meta": {
+      "title": "Book a Consultation",
+      "description": "Schedule a personalized nutrition consultation with NEED Nutritional Products and Services PLC in Addis Ababa, Ethiopia."
+    },
+    "form": {
+      "title": "Book a consultation",
+      "subtitle": "Tell us about yourself and your goals. We will confirm timing and next steps.",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "consultationType": "Consultation type",
+      "age": "Age (optional)",
+      "preferredDate": "Preferred date",
+      "preferredTime": "Preferred time",
+      "message": "Describe your goals",
+      "submit": "Submit request",
+      "submitting": "Submitting…",
+      "success": "Thanks — your consultation request was received. We will contact you to confirm timing.",
+      "error": "Please fix the highlighted fields and try again.",
+      "note": "By submitting, you agree to be contacted about your consultation request.",
+      "consultationTypes": {
+        "nutrition-counseling": "Nutrition counseling",
+        "weight-management": "Weight management",
+        "diabetes-nutrition": "Diabetes nutrition",
+        "hypertension-nutrition": "Hypertension nutrition",
+        "cholesterol-nutrition": "Cholesterol nutrition",
+        "personalized-meal-planning": "Personalized meal planning",
+        "other": "Other"
+      }
+    }
+  },
+  "Contact": {
+    "meta": {
+      "title": "Contact NEED",
+      "description": "Get in touch with NEED Nutritional Products and Services PLC in Addis Ababa, Ethiopia."
+    },
+    "form": {
+      "title": "Send a message",
+      "subtitle": "Have a question or want to connect? Fill out the form below.",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send message",
+      "submitting": "Sending…",
+      "success": "Thanks — your message was received. We will get back to you soon.",
+      "error": "Please fix the highlighted fields and try again.",
+      "note": "By submitting, you agree to be contacted about your inquiry."
+    }
+  },
+  "Newsletter": {
+    "form": {
+      "placeholder": "Enter your email",
+      "email": "Email address",
+      "submit": "Subscribe",
+      "submitting": "Subscribing…",
+      "success": "Thanks for subscribing!",
+      "error": "Please enter a valid email address."
+    }
+  }
+}
