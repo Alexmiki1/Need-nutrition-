@@ -1,5 +1,5 @@
-import fs from 'fs';
-import path from 'path';
+import * as fs from 'fs';
+import * as path from 'path';
 
 // Read JSON
 const enJson = JSON.parse(fs.readFileSync(path.join(__dirname, '../messages/en.json'), 'utf8'));
