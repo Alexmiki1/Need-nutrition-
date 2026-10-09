@@ -3,6 +3,7 @@ import { Link } from "@/i18n/navigation";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { CTAButton } from "@/components/ui/CTAButton";
 import { BlogCard } from "@/components/cards/Cards";
+import { urlFor } from "@/lib/sanity/client";
 import {
   resourceArticleMeta,
   type ResourceArticleSlug,
@@ -10,16 +11,38 @@ import {
 import { cn } from "@/lib/cn";
 
 type ArticleDetailProps = {
-  slug: ResourceArticleSlug;
+  slug: string;
+  article?: any;
 };
 
-export function ArticleDetail({ slug }: ArticleDetailProps) {
+export function ArticleDetail({ slug, article: sanityArticle }: ArticleDetailProps) {
   const t = useTranslations("Resources");
-  const meta = resourceArticleMeta[slug];
-  const sections = t.raw(`articles.${slug}.sections`) as Array<{
-    heading: string;
-    body: string;
-  }>;
+  
+  const isSanity = !!sanityArticle;
+  
+  const meta = isSanity ? null : resourceArticleMeta[slug as ResourceArticleSlug];
+  
+  const category = isSanity ? sanityArticle.category : meta?.category;
+  const language = isSanity ? sanityArticle.language : meta?.language;
+  const dateStr = isSanity ? sanityArticle.date : meta?.date;
+  const author = isSanity ? sanityArticle.author : meta?.author;
+  const tint = isSanity ? sanityArticle.tint : meta?.tint;
+  
+  const imageUrl = isSanity
+    ? (sanityArticle.coverImage ? urlFor(sanityArticle.coverImage).width(900).auto('format').url() : null)
+    : meta?.image;
+  const excerpt = isSanity ? sanityArticle.excerpt : t(`articles.${slug}.excerpt`);
+  
+  const sections = isSanity 
+    ? sanityArticle.content 
+    : (t.raw(`articles.${slug}.sections`) as Array<{
+        heading: string;
+        body: string;
+      }>);
+
+  const related = isSanity 
+    ? (sanityArticle.relatedArticles || [])
+    : (meta?.related || []);
 
   return (
     <>
@@ -27,42 +50,41 @@ export function ArticleDetail({ slug }: ArticleDetailProps) {
         <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
           <div className="mb-6 flex flex-wrap items-center gap-3 text-sm">
             <span className="rounded-full bg-need-green-100 px-3 py-1 font-semibold text-need-green-900">
-              {t(`categories.${meta.category}`)}
+              {isSanity ? category : t(`categories.${category}`)}
             </span>
             <span className="rounded-full bg-need-cream px-3 py-1 font-medium text-need-muted">
-              {t(`languages.${meta.language}`)}
+              {isSanity ? language : t(`languages.${language}`)}
             </span>
             <span className="text-need-muted">
-              {meta.date} · {meta.author}
+              {dateStr} · {author}
             </span>
           </div>
 
           <div
             className={cn(
               "relative mb-10 aspect-[21/9] overflow-hidden rounded-need bg-gradient-to-br",
-              meta.tint === "blue" && "from-need-blue/30 to-need-blue-100",
-              meta.tint === "green" &&
-                "from-need-green-700/30 to-need-green-100",
-              meta.tint === "orange" && "from-need-orange/30 to-need-orange-100",
+              tint === "blue" && "from-need-blue/30 to-need-blue-100",
+              tint === "green" && "from-need-green-700/30 to-need-green-100",
+              tint === "orange" && "from-need-orange/30 to-need-orange-100",
             )}
             role="img"
-            aria-label={t(`articles.${slug}.coverAlt`)}
+            aria-label={isSanity ? sanityArticle.title : t(`articles.${slug}.coverAlt`)}
           >
-            {meta.image ? (
+            {imageUrl ? (
               <img
-                src={meta.image}
-                alt={t(`articles.${slug}.coverAlt`)}
+                src={imageUrl}
+                alt={isSanity ? sanityArticle.title : t(`articles.${slug}.coverAlt`)}
                 className="h-full w-full object-cover"
               />
             ) : null}
           </div>
 
           <p className="text-lg leading-relaxed text-need-muted">
-            {t(`articles.${slug}.excerpt`)}
+            {excerpt}
           </p>
 
           <div className="mt-10 space-y-8">
-            {sections.map((section, index) => (
+            {sections && sections.map((section: any, index: number) => (
               <div key={`section-${index}`}>
                 <h2 className="text-2xl font-bold text-need-ink">
                   {section.heading}
@@ -91,15 +113,24 @@ export function ArticleDetail({ slug }: ArticleDetailProps) {
         <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
           <SectionHeading title={t("common.relatedTitle")} className="mb-8" />
           <div className="grid gap-5 md:grid-cols-3">
-            {meta.related.map((relatedSlug) => {
-              const relatedMeta = resourceArticleMeta[relatedSlug];
+            {related.map((rel: any) => {
+              const isRelSanity = isSanity;
+              const relatedSlug = isRelSanity ? rel.slug?.current : rel;
+              const relatedMeta = !isRelSanity ? resourceArticleMeta[relatedSlug as ResourceArticleSlug] : null;
+              
+              const relTint = isRelSanity ? rel.tint : relatedMeta?.tint;
+              const relTitle = isRelSanity ? rel.title : t(`articles.${relatedSlug}.title`);
+              const relCategory = isRelSanity ? rel.category : t(`categories.${relatedMeta?.category}`);
+              const relDate = isRelSanity ? rel.date : relatedMeta?.date;
+              const relAuthor = isRelSanity ? rel.author : relatedMeta?.author;
+
               return (
                 <BlogCard
                   key={relatedSlug}
-                  tint={relatedMeta.tint}
-                  title={t(`articles.${relatedSlug}.title`)}
-                  category={t(`categories.${relatedMeta.category}`)}
-                  meta={`${relatedMeta.date} · ${relatedMeta.author}`}
+                  tint={relTint || "green"}
+                  title={relTitle}
+                  category={relCategory}
+                  meta={`${relDate} · ${relAuthor}`}
                   readMore={t("common.readMore")}
                   href={`/resources/${relatedSlug}`}
                 />

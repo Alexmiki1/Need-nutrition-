@@ -28,6 +28,8 @@ export async function generateMetadata({
   };
 }
 
+import { getTestimonialQuotes, getTransformationCases, getArticles } from "@/lib/sanity/client";
+
 export default async function HomePage({
   params,
 }: {
@@ -35,6 +37,10 @@ export default async function HomePage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
+  
+  const sanityQuotes = await getTestimonialQuotes();
+  const sanityTransformations = await getTransformationCases();
+  const sanityArticles = await getArticles();
 
   return (
     <>
@@ -45,10 +51,10 @@ export default async function HomePage({
       <StorySection />
       <PathwaysSection />
       <InstitutionalBand />
-      <ResourcesPreview />
+      <ResourcesPreview articles={sanityArticles} />
       <FeaturedBanner />
       <PartnersCloud />
-      <TestimonialsPreview />
+      <TestimonialsPreview quotes={sanityQuotes} transformations={sanityTransformations} />
       <ServicesPreview />
       <ContactButtons />
       <ChoosePathSection />

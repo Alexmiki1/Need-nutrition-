@@ -1,0 +1,18 @@
+
+> need-website@0.1.0 dev
+> next dev
+
+Γû▓ Next.js 16.3.7 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://169.254.83.107:3000
+- Environments: .env.local
+Γ£ô Ready in 2.1s
+Γ£ô Running next.config.ts took 619ms
+
+Γùï Compiling /_not-found/page ...
+ GET /en/studio 404 in 7.2s (next.js: 6.0s, proxy.ts: 655ms, application-code: 519ms)
+The default export of @sanity/image-url has been deprecated. Use the named export `createImageUrlBuilder` instead.
+The default export of @sanity/image-url has been deprecated. Use the named export `createImageUrlBuilder` instead.
+This is a future API version, which may change without warning.
+ GET /en 200 in 8.3s (next.js: 3.2s, proxy.ts: 25ms, generate-params: 2.2s, application-code: 2.9s)
+ GET /en/studio 404 in 171ms (next.js: 26ms, proxy.ts: 20ms, application-code: 125ms)

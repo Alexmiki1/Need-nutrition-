@@ -2,15 +2,23 @@ import { useTranslations } from "next-intl";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { CTAButton } from "@/components/ui/CTAButton";
 import { BlogCard } from "@/components/cards/Cards";
+import { urlFor } from "@/lib/sanity/client";
 import {
   resourceArticleMeta,
   resourceArticleSlugs,
 } from "@/lib/resources";
 
-export function ResourcesPreview() {
+export function ResourcesPreview({ articles }: { articles?: any[] } = {}) {
   const t = useTranslations("Home.resources");
   const tRes = useTranslations("Resources");
-  const previewSlugs = resourceArticleSlugs.slice(0, 3);
+  
+  const hasSanity = articles && articles.length > 0;
+  const previewItems = hasSanity 
+    ? articles.slice(0, 3) 
+    : resourceArticleSlugs.slice(0, 3).map(slug => ({
+        slug: { current: slug },
+        meta: resourceArticleMeta[slug]
+      }));
 
   return (
     <section className="bg-white">
@@ -23,17 +31,29 @@ export function ResourcesPreview() {
           className="mb-10"
         />
         <div className="grid gap-5 md:grid-cols-3">
-          {previewSlugs.map((slug) => {
-            const meta = resourceArticleMeta[slug];
+          {previewItems.map((item) => {
+            const isSanity = hasSanity;
+            const slugString = isSanity ? item.slug.current : item.slug.current;
+            const tint = isSanity ? item.tint : item.meta.tint;
+            const title = isSanity ? item.title : tRes(`articles.${slugString}.title`);
+            const category = isSanity ? item.category : tRes(`categories.${item.meta.category}`);
+            const dateStr = isSanity ? item.date : item.meta.date;
+            const author = isSanity ? item.author : item.meta.author;
+            
+            const image = isSanity
+              ? (item.coverImage ? urlFor(item.coverImage).width(600).auto('format').url() : undefined)
+              : item.meta?.image;
+            
             return (
               <BlogCard
-                key={slug}
-                tint={meta.tint}
-                title={tRes(`articles.${slug}.title`)}
-                category={tRes(`categories.${meta.category}`)}
-                meta={`${meta.date} · ${meta.author}`}
+                key={slugString}
+                tint={tint || "green"}
+                title={title}
+                category={category}
+                meta={`${dateStr} · ${author}`}
                 readMore={t("readMore")}
-                href={`/resources/${slug}`}
+                href={`/resources/${slugString}`}
+                image={image}
               />
             );
           })}

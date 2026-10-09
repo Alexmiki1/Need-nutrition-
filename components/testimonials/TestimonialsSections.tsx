@@ -20,14 +20,17 @@ export function TestimonialsConsentNote() {
   );
 }
 
-export function TestimonialsQuotes() {
+export function TestimonialsQuotes({ items: sanityItems }: { items?: any[] }) {
   const t = useTranslations("Testimonials.quotes");
-  const items = t.raw("items") as Array<{
-    quote: string;
-    name: string;
-    role: string;
-    tone: "blue" | "green" | "orange";
-  }>;
+  
+  const items = sanityItems && sanityItems.length > 0 
+    ? sanityItems 
+    : (t.raw("items") as Array<{
+        quote: string;
+        name: string;
+        role: string;
+        tone: "blue" | "green" | "orange";
+      }>);
 
   return (
     <section className="bg-white">

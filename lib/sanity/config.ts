@@ -1,6 +1,6 @@
 export const config = {
-  projectId: "your-project-id", // Replace with your actual project ID from Sanity dashboard
-  dataset: "production",
-  apiVersion: "2024-01-01",
-  useCdn: false,
+  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || "your-project-id",
+  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || "production",
+  apiVersion: process.env.NEXT_PUBLIC_SANITY_API_VERSION || "2026-10-10",
+  useCdn: process.env.NODE_ENV === "production",
 };

@@ -72,18 +72,21 @@ export function PartnersCloud() {
   );
 }
 
-export function TestimonialsPreview() {
+export function TestimonialsPreview({ quotes, transformations }: { quotes?: any[], transformations?: any[] } = {}) {
   const t = useTranslations("Testimonials.quotes");
-  const items = (t.raw("items") as Array<{
-    quote: string;
-    name: string;
-    role: string;
-    tone: "blue" | "green" | "orange";
-  }>).slice(0, 3);
+  
+  const items = quotes && quotes.length > 0 
+    ? quotes.slice(0, 3) 
+    : (t.raw("items") as Array<{
+        quote: string;
+        name: string;
+        role: string;
+        tone: "blue" | "green" | "orange";
+      }>).slice(0, 3);
 
   return (
     <>
-      <TransformationsSection variant="home" showCta={false} />
+      <TransformationsSection variant="home" showCta={false} items={transformations} />
       <section className="bg-need-cream">
         <div className="mx-auto max-w-7xl px-4 pb-16 sm:px-6 lg:px-8">
           <div className="grid gap-5 md:grid-cols-3">

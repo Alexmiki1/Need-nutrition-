@@ -2,13 +2,17 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { PageHero } from "@/components/ui/PageHero";
 import { ArticleDetail } from "@/components/resources/ArticleDetail";
+import { getArticleBySlug, getArticles } from "@/lib/sanity/client";
 import {
   isResourceArticleSlug,
   resourceArticleSlugs,
 } from "@/lib/resources";
 
-export function generateStaticParams() {
-  return resourceArticleSlugs.map((slug) => ({ slug }));
+export async function generateStaticParams() {
+  const sanityArticles = await getArticles();
+  const sanitySlugs = sanityArticles.map((a: any) => ({ slug: a.slug.current }));
+  const localSlugs = resourceArticleSlugs.map((slug) => ({ slug }));
+  return [...sanitySlugs, ...localSlugs];
 }
 
 export async function generateMetadata({
@@ -17,6 +21,15 @@ export async function generateMetadata({
   params: Promise<{ locale: string; slug: string }>;
 }) {
   const { locale, slug } = await params;
+  
+  const article = await getArticleBySlug(slug);
+  if (article) {
+    return {
+      title: article.title,
+      description: article.excerpt,
+    };
+  }
+
   if (!isResourceArticleSlug(slug)) return {};
 
   const t = await getTranslations({ locale, namespace: "Resources" });
@@ -35,7 +48,9 @@ export default async function ResourceArticlePage({
   const { locale, slug } = await params;
   setRequestLocale(locale);
 
-  if (!isResourceArticleSlug(slug)) {
+  const sanityArticle = await getArticleBySlug(slug);
+
+  if (!sanityArticle && !isResourceArticleSlug(slug)) {
     notFound();
   }
 
@@ -43,20 +58,23 @@ export default async function ResourceArticlePage({
   const tNav = await getTranslations("Nav");
   const tCommon = await getTranslations("Common");
 
+  const title = sanityArticle ? sanityArticle.title : t(`articles.${slug}.title`);
+  const excerpt = sanityArticle ? sanityArticle.excerpt : t(`articles.${slug}.excerpt`);
+
   return (
     <>
       <PageHero
         eyebrow={t("hero.eyebrow")}
-        title={t(`articles.${slug}.title`)}
-        subtitle={t(`articles.${slug}.excerpt`)}
+        title={title}
+        subtitle={excerpt}
         breadcrumbLabel={tCommon("breadcrumb")}
         breadcrumbs={[
           { label: tCommon("home"), href: "/" },
           { label: tNav("resources"), href: "/resources" },
-          { label: t(`articles.${slug}.title`) },
+          { label: title },
         ]}
       />
-      <ArticleDetail slug={slug} />
+      <ArticleDetail slug={slug} article={sanityArticle} />
     </>
   );
 }

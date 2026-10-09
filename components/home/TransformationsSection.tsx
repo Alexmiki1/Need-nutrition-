@@ -9,14 +9,19 @@ import {
 type TransformationsSectionProps = {
   showCta?: boolean;
   variant?: "home" | "page";
+  items?: any[];
 };
 
 export function TransformationsSection({
   showCta = true,
   variant = "page",
+  items: sanityItems,
 }: TransformationsSectionProps) {
   const t = useTranslations("Transformations");
-  const items = t.raw("items") as Transformation[];
+  
+  const items = sanityItems && sanityItems.length > 0
+    ? sanityItems
+    : (t.raw("items") as Transformation[]);
 
   return (
     <section className={variant === "home" ? "bg-white" : "bg-need-cream"}>

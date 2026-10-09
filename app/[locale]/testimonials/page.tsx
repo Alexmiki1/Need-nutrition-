@@ -22,6 +22,8 @@ export async function generateMetadata({
   };
 }
 
+import { getTestimonialQuotes, getTransformationCases } from "@/lib/sanity/client";
+
 export default async function TestimonialsPage({
   params,
 }: {
@@ -33,6 +35,9 @@ export default async function TestimonialsPage({
   const t = await getTranslations("Testimonials");
   const tNav = await getTranslations("Nav");
   const tCommon = await getTranslations("Common");
+  
+  const sanityQuotes = await getTestimonialQuotes();
+  const sanityTransformations = await getTransformationCases();
 
   return (
     <>
@@ -47,8 +52,8 @@ export default async function TestimonialsPage({
         ]}
       />
       <TestimonialsConsentNote />
-      <TestimonialsQuotes />
-      <TransformationsSection showCta={false} variant="page" />
+      <TestimonialsQuotes items={sanityQuotes} />
+      <TransformationsSection showCta={false} variant="page" items={sanityTransformations} />
       <TestimonialsRecognition />
       <TestimonialsCta />
     </>

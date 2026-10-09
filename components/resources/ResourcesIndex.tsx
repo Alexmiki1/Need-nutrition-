@@ -6,6 +6,7 @@ import { usePathname, useRouter } from "@/i18n/navigation";
 import { useSearchParams } from "next/navigation";
 import { BlogCard } from "@/components/cards/Cards";
 import { SectionHeading } from "@/components/ui/SectionHeading";
+import { urlFor } from "@/lib/sanity/client";
 import {
   filterArticles,
   resourceArticleMeta,
@@ -13,7 +14,7 @@ import {
 } from "@/lib/resources";
 import { cn } from "@/lib/cn";
 
-export function ResourcesIndex() {
+export function ResourcesIndex({ articles: sanityArticles }: { articles?: any[] } = {}) {
   const t = useTranslations("Resources");
   const router = useRouter();
   const pathname = usePathname();
@@ -22,10 +23,18 @@ export function ResourcesIndex() {
   const category = searchParams.get("category") ?? "all";
   const language = searchParams.get("lang") ?? "all";
 
-  const articles = useMemo(
-    () => filterArticles({ category, language }),
-    [category, language],
-  );
+  const hasSanity = sanityArticles && sanityArticles.length > 0;
+
+  const articles = useMemo(() => {
+    if (hasSanity) {
+      return sanityArticles.filter((item: any) => {
+        const categoryOk = category === "all" || item.category === category;
+        const languageOk = language === "all" || item.language === "both" || item.language === language;
+        return categoryOk && languageOk;
+      });
+    }
+    return filterArticles({ category, language });
+  }, [category, language, sanityArticles, hasSanity]);
 
   function updateFilter(key: "category" | "lang", value: string) {
     const params = new URLSearchParams(searchParams.toString());
@@ -102,17 +111,30 @@ export function ResourcesIndex() {
           </p>
         ) : (
           <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
-            {articles.map((slug) => {
-              const meta = resourceArticleMeta[slug];
+            {articles.map((itemOrSlug: any) => {
+              const isSanity = hasSanity;
+              const slugString = isSanity ? itemOrSlug.slug.current : itemOrSlug;
+              const meta = !isSanity ? resourceArticleMeta[slugString as keyof typeof resourceArticleMeta] : null;
+              
+              const tint = isSanity ? itemOrSlug.tint : meta?.tint;
+              const title = isSanity ? itemOrSlug.title : t(`articles.${slugString}.title`);
+              const category = isSanity ? itemOrSlug.category : t(`categories.${meta?.category}`);
+              const dateStr = isSanity ? itemOrSlug.date : meta?.date;
+              const author = isSanity ? itemOrSlug.author : meta?.author;
+              const image = isSanity
+                ? (itemOrSlug.coverImage ? urlFor(itemOrSlug.coverImage).width(600).auto('format').url() : undefined)
+                : meta?.image;
+
               return (
                 <BlogCard
-                  key={slug}
-                  tint={meta.tint}
-                  title={t(`articles.${slug}.title`)}
-                  category={t(`categories.${meta.category}`)}
-                  meta={`${meta.date} · ${meta.author}`}
+                  key={slugString}
+                  tint={tint || "green"}
+                  title={title}
+                  category={category}
+                  meta={`${dateStr} · ${author}`}
                   readMore={t("common.readMore")}
-                  href={`/resources/${slug}`}
+                  href={`/resources/${slugString}`}
+                  image={image}
                 />
               );
             })}

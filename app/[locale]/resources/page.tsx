@@ -2,6 +2,7 @@ import { Suspense } from "react";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { PageHero } from "@/components/ui/PageHero";
 import { ResourcesIndex } from "@/components/resources/ResourcesIndex";
+import { getArticles } from "@/lib/sanity/client";
 
 export async function generateMetadata({
   params,
@@ -28,6 +29,8 @@ export default async function ResourcesPage({
   const t = await getTranslations("Resources");
   const tNav = await getTranslations("Nav");
   const tCommon = await getTranslations("Common");
+  
+  const sanityArticles = await getArticles();
 
   return (
     <>
@@ -48,7 +51,7 @@ export default async function ResourcesPage({
           </div>
         }
       >
-        <ResourcesIndex />
+        <ResourcesIndex articles={sanityArticles} />
       </Suspense>
     </>
   );
