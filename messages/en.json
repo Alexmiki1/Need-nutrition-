@@ -174,39 +174,35 @@
       "items": [
         {
           "name": "IFPRI",
-          "logo": "/images/Logo 1.jpg"
+          "logo": "/logos/ifpri-logo.png"
         },
         {
           "name": "USAID",
-          "logo": "/images/Logo 2.jpg"
+          "logo": "/logos/usaid logo.png"
         },
         {
           "name": "Nutrition International",
-          "logo": "/images/Logo 4.jpg"
+          "logo": "/logos/nutrion international.png"
         },
         {
           "name": "Ethiopian Airlines",
-          "logo": "/images/Logo 1.jpg"
+          "logo": "/logos/ethiopian-airlines-logo-.png"
         },
         {
           "name": "UNICEF",
-          "logo": "/images/Logo 2.jpg"
+          "logo": "/logos/UNICEF Blue Logo on White.png"
         },
         {
           "name": "GAIN",
-          "logo": "/images/Logo 4.jpg"
+          "logo": "/logos/GAIN Global Alliance Logo.png"
         },
         {
           "name": "TechnoServe",
-          "logo": "/images/Logo 1.jpg"
+          "logo": "/logos/TechnoServe logo.png"
         },
         {
           "name": "Mercy Corps",
-          "logo": "/images/Logo 2.jpg"
-        },
-        {
-          "name": "Unilever",
-          "logo": "/images/Logo 4.jpg"
+          "logo": "/logos/Mercy Corps logo.avif"
         }
       ]
     },
@@ -550,15 +546,38 @@
       "title": "Trusted by global leaders",
       "subtitle": "UN agencies, global NGOs, governments & Fortune 500 corporates",
       "items": [
-        "IFPRI",
-        "USAID",
-        "Nutrition International",
-        "Ethiopian Airlines",
-        "UNICEF",
-        "GAIN",
-        "TechnoServe",
-        "Mercy Corps",
-        "Unilever"
+        {
+          "name": "IFPRI",
+          "logo": "/logos/ifpri-logo.png"
+        },
+        {
+          "name": "USAID",
+          "logo": "/logos/usaid logo.png"
+        },
+        {
+          "name": "Nutrition International",
+          "logo": "/logos/nutrion international.png"
+        },
+        {
+          "name": "Ethiopian Airlines",
+          "logo": "/logos/ethiopian-airlines-logo-.png"
+        },
+        {
+          "name": "UNICEF",
+          "logo": "/logos/UNICEF Blue Logo on White.png"
+        },
+        {
+          "name": "GAIN",
+          "logo": "/logos/GAIN Global Alliance Logo.png"
+        },
+        {
+          "name": "TechnoServe",
+          "logo": "/logos/TechnoServe logo.png"
+        },
+        {
+          "name": "Mercy Corps",
+          "logo": "/logos/Mercy Corps logo.avif"
+        }
       ]
     },
     "team": {

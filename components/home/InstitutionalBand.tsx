@@ -18,7 +18,7 @@ export function InstitutionalBand() {
         <div className="grid items-center gap-10 lg:grid-cols-2">
           <div className="relative aspect-[4/3] overflow-hidden rounded-need shadow-soft">
             <img
-              src="/images/hero image.jpg"
+              src="/images/Programs and partnerships for organizations.png"
               alt={t("imageAlt")}
               className="h-full w-full object-cover"
             />
