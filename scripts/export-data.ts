@@ -46,7 +46,7 @@ transformations.forEach((item: any, i: number) => {
 const articlesKeys = Object.keys(enJson.Resources.articles);
 articlesKeys.forEach((slug) => {
   const articleData = enJson.Resources.articles[slug];
-  const meta = resourceArticleMeta[slug];
+  const meta = resourceArticleMeta[slug as keyof typeof resourceArticleMeta];
   
   if (!meta) return;
 
