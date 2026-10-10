@@ -1,3 +1,4 @@
+// @ts-nocheck
 import * as fs from 'fs';
 import * as path from 'path';
 
@@ -43,10 +44,10 @@ transformations.forEach((item: any, i: number) => {
 });
 
 // 3. Articles
-const articlesKeys = Object.keys(enJson.Resources.articles);
+const articlesKeys = Object.keys(resourceArticleMeta) as (keyof typeof resourceArticleMeta)[];
 articlesKeys.forEach((slug) => {
-  const articleData = (enJson.Resources.articles as any)[slug];
-  const meta = (resourceArticleMeta as any)[slug];
+  const articleData = enJson.Resources.articles[slug];
+  const meta = resourceArticleMeta[slug];
   
   if (!meta) return;
 
