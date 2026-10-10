@@ -1,4 +1,5 @@
 import { cn } from "@/lib/cn";
+import { urlFor } from "@/sanity/lib/image";
 
 export type Transformation = {
   category: string;
@@ -7,9 +8,9 @@ export type Transformation = {
   body: string;
   name?: string;
   tone: "loss" | "gain";
-  beforeImage?: string;
-  afterImage?: string;
-  singleImage?: string;
+  beforeImage?: any;
+  afterImage?: any;
+  singleImage?: any;
 };
 
 type TransformationCardProps = {
@@ -17,8 +18,22 @@ type TransformationCardProps = {
   className?: string;
 };
 
+function getImageUrl(source: any): string | undefined {
+  if (!source) return undefined;
+  if (typeof source === "string") return source;
+  try {
+    return urlFor(source).url();
+  } catch (error) {
+    return undefined;
+  }
+}
+
 export function TransformationCard({ item, className }: TransformationCardProps) {
   const isLoss = item.tone === "loss";
+  
+  const beforeImg = getImageUrl(item.beforeImage);
+  const afterImg = getImageUrl(item.afterImage);
+  const singleImg = getImageUrl(item.singleImage);
 
   return (
     <article
@@ -37,11 +52,11 @@ export function TransformationCard({ item, className }: TransformationCardProps)
         role="img"
         aria-label={`${item.category} transformation photo placeholder`}
       >
-        {isLoss && item.beforeImage && item.afterImage ? (
+        {isLoss && beforeImg && afterImg ? (
           <div className="absolute inset-0 flex">
             <div className="relative w-1/2">
               <img
-                src={item.beforeImage}
+                src={beforeImg}
                 alt="Before"
                 className="h-full w-full object-cover"
               />
@@ -53,7 +68,7 @@ export function TransformationCard({ item, className }: TransformationCardProps)
             </div>
             <div className="relative w-1/2">
               <img
-                src={item.afterImage}
+                src={afterImg}
                 alt="After"
                 className="h-full w-full object-cover"
               />
@@ -64,10 +79,10 @@ export function TransformationCard({ item, className }: TransformationCardProps)
               </div>
             </div>
           </div>
-        ) : !isLoss && item.singleImage ? (
+        ) : !isLoss && singleImg ? (
           <div className="absolute inset-0">
             <img
-              src={item.singleImage}
+              src={singleImg}
               alt={item.category}
               className="h-full w-full object-cover"
             />
