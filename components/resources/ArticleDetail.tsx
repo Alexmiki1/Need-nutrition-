@@ -39,7 +39,7 @@ export function ArticleDetail({ slug }: ArticleDetailProps) {
 
           <div
             className={cn(
-              "mb-10 aspect-[21/9] rounded-need bg-gradient-to-br",
+              "relative mb-10 aspect-[21/9] overflow-hidden rounded-need bg-gradient-to-br",
               meta.tint === "blue" && "from-need-blue/30 to-need-blue-100",
               meta.tint === "green" &&
                 "from-need-green-700/30 to-need-green-100",
@@ -47,7 +47,15 @@ export function ArticleDetail({ slug }: ArticleDetailProps) {
             )}
             role="img"
             aria-label={t(`articles.${slug}.coverAlt`)}
-          />
+          >
+            {meta.image ? (
+              <img
+                src={meta.image}
+                alt={t(`articles.${slug}.coverAlt`)}
+                className="h-full w-full object-cover"
+              />
+            ) : null}
+          </div>
 
           <p className="text-lg leading-relaxed text-need-muted">
             {t(`articles.${slug}.excerpt`)}

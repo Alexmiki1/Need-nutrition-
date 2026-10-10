@@ -16,11 +16,13 @@ export function InstitutionalBand() {
     <section className="bg-need-green-900 text-white">
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid items-center gap-10 lg:grid-cols-2">
-          <div
-            className="aspect-[4/3] rounded-need bg-gradient-to-br from-need-green-700 to-need-green-950 shadow-soft"
-            role="img"
-            aria-label={t("imageAlt")}
-          />
+          <div className="relative aspect-[4/3] overflow-hidden rounded-need shadow-soft">
+            <img
+              src="/images/hero image.jpg"
+              alt={t("imageAlt")}
+              className="h-full w-full object-cover"
+            />
+          </div>
           <div>
             <SectionHeading
               eyebrow={t("eyebrow")}

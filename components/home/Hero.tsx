@@ -31,20 +31,17 @@ export function Hero() {
 
         <div className="relative mx-auto w-full max-w-md animate-fade-in lg:max-w-none">
           <div className="relative aspect-[4/5] overflow-hidden rounded-need bg-need-green-800 shadow-soft">
+            <img
+              src="/images/hero image.jpg"
+              alt={t("portraitAlt")}
+              className="h-full w-full object-cover"
+            />
             <div className="absolute inset-0 bg-gradient-to-t from-need-green-950/80 via-transparent to-transparent" />
             <div className="absolute inset-0 flex items-end p-6">
               <p className="rounded-2xl bg-white/95 px-4 py-3 text-sm font-semibold text-need-ink">
                 {t("portraitLabel")}
               </p>
             </div>
-            <div
-              className="absolute inset-0 opacity-30"
-              style={{
-                backgroundImage:
-                  "radial-gradient(circle at 30% 30%, rgba(242,107,29,0.45), transparent 45%), radial-gradient(circle at 70% 60%, rgba(255,255,255,0.12), transparent 40%)",
-              }}
-              aria-hidden
-            />
             <span className="sr-only">{t("portraitAlt")}</span>
           </div>
 

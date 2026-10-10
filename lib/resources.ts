@@ -48,6 +48,7 @@ export const resourceArticleMeta: Record<
     date: string;
     author: string;
     related: ResourceArticleSlug[];
+    image?: string;
   }
 > = {
   "ethiopian-plate-basics": {
@@ -56,6 +57,7 @@ export const resourceArticleMeta: Record<
     tint: "green",
     date: "2024-06-12",
     author: "Abinet Tekle Hagos",
+    image: "/images/photo_2026-10-07_09-50-09.jpg",
     related: [
       "reading-nutrition-labels-simply",
       "sewegna-recap-green-vegetables",
@@ -68,6 +70,7 @@ export const resourceArticleMeta: Record<
     tint: "orange",
     date: "2024-07-03",
     author: "Abinet Tekle Hagos",
+    image: "/images/photo_2026-10-07_09-50-13.jpg",
     related: [
       "ethiopian-plate-basics",
       "diabetes-friendly-ethiopian-meals",
@@ -80,6 +83,7 @@ export const resourceArticleMeta: Record<
     tint: "blue",
     date: "2024-08-18",
     author: "NEED Nutritional",
+    image: "/images/photo_2026-10-07_09-50-17.jpg",
     related: [
       "sustainable-weight-habits",
       "ethiopian-plate-basics",
@@ -92,6 +96,7 @@ export const resourceArticleMeta: Record<
     tint: "green",
     date: "2024-09-02",
     author: "NEED Nutritional",
+    image: "/images/photo_2026-10-07_09-50-18.jpg",
     related: [
       "fiber-fats-and-heart-health",
       "ethiopian-plate-basics",
@@ -104,6 +109,7 @@ export const resourceArticleMeta: Record<
     tint: "blue",
     date: "2024-09-20",
     author: "Abinet Tekle Hagos",
+    image: "/images/photo_2026-10-07_09-50-19.jpg",
     related: [
       "sodium-aware-cooking-at-home",
       "ethiopian-plate-basics",
@@ -116,6 +122,7 @@ export const resourceArticleMeta: Record<
     tint: "orange",
     date: "2024-10-05",
     author: "NEED Nutritional",
+    image: "/images/photo_2026-10-07_09-50-20.jpg",
     related: [
       "feeding-toddlers-with-local-foods",
       "ethiopian-plate-basics",
@@ -128,6 +135,7 @@ export const resourceArticleMeta: Record<
     tint: "green",
     date: "2024-10-22",
     author: "NEED Nutritional",
+    image: "/images/Logo 1.jpg",
     related: [
       "nutrition-in-pregnancy-basics",
       "ethiopian-plate-basics",
@@ -140,6 +148,7 @@ export const resourceArticleMeta: Record<
     tint: "blue",
     date: "2024-11-08",
     author: "NEED Nutritional",
+    image: "/images/Logo 2.jpg",
     related: [
       "ethiopian-plate-basics",
       "diabetes-friendly-ethiopian-meals",
@@ -152,6 +161,7 @@ export const resourceArticleMeta: Record<
     tint: "orange",
     date: "2024-11-20",
     author: "Sewegna / NEED",
+    image: "/images/Logo 4.jpg",
     related: [
       "ethiopian-plate-basics",
       "sodium-aware-cooking-at-home",

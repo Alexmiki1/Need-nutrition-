@@ -7,6 +7,9 @@ export type Transformation = {
   body: string;
   name?: string;
   tone: "loss" | "gain";
+  beforeImage?: string;
+  afterImage?: string;
+  singleImage?: string;
 };
 
 type TransformationCardProps = {
@@ -34,22 +37,64 @@ export function TransformationCard({ item, className }: TransformationCardProps)
         role="img"
         aria-label={`${item.category} transformation photo placeholder`}
       >
-        <div className="absolute inset-0 flex">
-          {isLoss ? (
-            <>
-              <div className="flex w-1/2 items-end justify-center border-r border-white/40 bg-black/5 pb-4 text-xs font-semibold text-need-muted">
-                Before
+        {isLoss && item.beforeImage && item.afterImage ? (
+          <div className="absolute inset-0 flex">
+            <div className="relative w-1/2">
+              <img
+                src={item.beforeImage}
+                alt="Before"
+                className="h-full w-full object-cover"
+              />
+              <div className="absolute inset-0 flex items-end justify-center border-r border-white/40 bg-black/5 pb-4">
+                <span className="text-xs font-semibold text-white drop-shadow-md">
+                  Before
+                </span>
               </div>
-              <div className="flex w-1/2 items-end justify-center bg-black/0 pb-4 text-xs font-semibold text-need-green-800">
-                After
-              </div>
-            </>
-          ) : (
-            <div className="flex w-full items-end justify-center pb-4 text-xs font-semibold text-need-green-800">
-              Healthy weight gain
             </div>
-          )}
-        </div>
+            <div className="relative w-1/2">
+              <img
+                src={item.afterImage}
+                alt="After"
+                className="h-full w-full object-cover"
+              />
+              <div className="absolute inset-0 flex items-end justify-center pb-4">
+                <span className="text-xs font-semibold text-white drop-shadow-md">
+                  After
+                </span>
+              </div>
+            </div>
+          </div>
+        ) : !isLoss && item.singleImage ? (
+          <div className="absolute inset-0">
+            <img
+              src={item.singleImage}
+              alt={item.category}
+              className="h-full w-full object-cover"
+            />
+            <div className="absolute inset-0 flex items-end justify-center pb-4">
+              <span className="text-xs font-semibold text-white drop-shadow-md">
+                Healthy weight gain
+              </span>
+            </div>
+          </div>
+        ) : (
+          <div className="absolute inset-0 flex">
+            {isLoss ? (
+              <>
+                <div className="flex w-1/2 items-end justify-center border-r border-white/40 bg-black/5 pb-4 text-xs font-semibold text-need-muted">
+                  Before
+                </div>
+                <div className="flex w-1/2 items-end justify-center bg-black/0 pb-4 text-xs font-semibold text-need-green-800">
+                  After
+                </div>
+              </>
+            ) : (
+              <div className="flex w-full items-end justify-center pb-4 text-xs font-semibold text-need-green-800">
+                Healthy weight gain
+              </div>
+            )}
+          </div>
+        )}
       </div>
 
       <div className="flex flex-1 flex-col p-5 sm:p-6">

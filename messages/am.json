@@ -172,15 +172,42 @@
       "subtitle": "UN agencies, global NGOs, governments, and corporate partners.",
       "cta": "Work With NEED",
       "items": [
-        "IFPRI",
-        "USAID",
-        "Nutrition International",
-        "Ethiopian Airlines",
-        "UNICEF",
-        "GAIN",
-        "TechnoServe",
-        "Mercy Corps",
-        "Unilever"
+        {
+          "name": "IFPRI",
+          "logo": "/images/Logo 1.jpg"
+        },
+        {
+          "name": "USAID",
+          "logo": "/images/Logo 2.jpg"
+        },
+        {
+          "name": "Nutrition International",
+          "logo": "/images/Logo 4.jpg"
+        },
+        {
+          "name": "Ethiopian Airlines",
+          "logo": "/images/Logo 1.jpg"
+        },
+        {
+          "name": "UNICEF",
+          "logo": "/images/Logo 2.jpg"
+        },
+        {
+          "name": "GAIN",
+          "logo": "/images/Logo 4.jpg"
+        },
+        {
+          "name": "TechnoServe",
+          "logo": "/images/Logo 1.jpg"
+        },
+        {
+          "name": "Mercy Corps",
+          "logo": "/images/Logo 2.jpg"
+        },
+        {
+          "name": "Unilever",
+          "logo": "/images/Logo 4.jpg"
+        }
       ]
     },
     "testimonials": {
@@ -515,7 +542,8 @@
             "Amharic",
             "English"
           ],
-          "photoAlt": "Abinet Tekle Hagos, founder of NEED Nutritional"
+          "photoAlt": "Abinet Tekle Hagos, founder of NEED Nutritional",
+          "photo": "/images/hero image.jpg"
         }
       ]
     },
@@ -551,15 +579,19 @@
         "category": "Before → After",
         "result": "30+ kg lost",
         "timeframe": "in 1 year",
-        "body": "A 28-year-old woman who battled a tumor and hormonal imbalance reclaimed her health and renewed her energy under Abinet’s personalized nutrition plan.",
-        "tone": "loss"
+        "body": "A 28-year-old woman who battled a tumor and hormonal imbalance reclaimed her health and renewed her energy under Abinet's personalized nutrition plan.",
+        "tone": "loss",
+        "beforeImage": "/images/before.jpg",
+        "afterImage": "/images/after.jpg"
       },
       {
         "category": "Before → After",
         "result": "41 kg lost",
         "timeframe": "in 2 years",
         "body": "A 25-year-old mother of two achieved an astonishing transformation — all while navigating the demands of raising young children.",
-        "tone": "loss"
+        "tone": "loss",
+        "beforeImage": "/images/before middle.png",
+        "afterImage": "/images/after midle (1).png"
       },
       {
         "category": "Healthy weight gain",
@@ -567,7 +599,8 @@
         "timeframe": "in 3 months",
         "body": "Hanan achieved a remarkable healthy weight gain of 10 kg in just 3 months through Abinet's targeted nutrition counseling — restoring her vitality and confidence.",
         "name": "Hanan",
-        "tone": "gain"
+        "tone": "gain",
+        "singleImage": "/images/Healthy Weight Gain.jpg"
       }
     ]
   },

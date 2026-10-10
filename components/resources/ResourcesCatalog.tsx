@@ -101,6 +101,7 @@ export function ResourcesCatalog() {
                   meta={`${meta.date} · ${meta.author}`}
                   readMore={t("catalog.readMore")}
                   href={`/resources/${slug}`}
+                  image={meta.image}
                 />
               );
             })}

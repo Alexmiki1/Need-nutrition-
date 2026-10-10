@@ -129,6 +129,7 @@ type BlogCardProps = {
   readMore: string;
   href?: string;
   tint?: "blue" | "green" | "orange";
+  image?: string;
 };
 
 const blogTints = {
@@ -144,10 +145,20 @@ export function BlogCard({
   readMore,
   href = "/resources",
   tint = "green",
+  image,
 }: BlogCardProps) {
   return (
     <article className="overflow-hidden rounded-card bg-white shadow-card">
-      <div className={cn("aspect-[16/10] bg-gradient-to-br", blogTints[tint])} />
+      <div className={cn("relative aspect-[16/10] bg-gradient-to-br", blogTints[tint])}>
+        {image ? (
+          <img
+            src={image}
+            alt=""
+            className="h-full w-full object-cover"
+            loading="lazy"
+          />
+        ) : null}
+      </div>
       <div className="p-5">
         <p className="text-xs font-semibold uppercase tracking-wide text-need-green-700">
           {category}

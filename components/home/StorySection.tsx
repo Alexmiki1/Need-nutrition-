@@ -31,7 +31,13 @@ export function StorySection() {
         </div>
 
         <aside className="rounded-need bg-white p-6 shadow-soft sm:p-8">
-          <div className="mb-5 aspect-[4/3] rounded-card bg-gradient-to-br from-need-green-100 via-white to-need-orange-100" />
+          <div className="mb-5 aspect-[4/3] overflow-hidden rounded-card bg-gradient-to-br from-need-green-100 via-white to-need-orange-100">
+            <img
+              src="/images/need foods logo.jpg"
+              alt="NEED Foods logo"
+              className="h-full w-full object-contain"
+            />
+          </div>
           <p className="text-sm font-semibold tracking-wide text-need-orange uppercase">
             {t("productTitle")}
           </p>

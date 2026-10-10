@@ -37,7 +37,7 @@ export function FeaturedBanner() {
 
 export function PartnersCloud() {
   const t = useTranslations("Home.partners");
-  const partners = t.raw("items") as string[];
+  const partners = t.raw("items") as Array<{ name: string; logo: string }>;
 
   return (
     <section className="bg-need-green-900">
@@ -53,10 +53,14 @@ export function PartnersCloud() {
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
           {partners.map((partner) => (
             <div
-              key={partner}
-              className="flex aspect-[3/2] items-center justify-center rounded-card bg-white px-3 text-center text-sm font-semibold text-need-ink"
+              key={partner.name}
+              className="flex aspect-[3/2] items-center justify-center rounded-card bg-white px-3"
             >
-              {partner}
+              <img
+                src={partner.logo}
+                alt={partner.name}
+                className="max-h-full max-w-full object-contain"
+              />
             </div>
           ))}
         </div>

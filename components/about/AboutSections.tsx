@@ -239,7 +239,13 @@ export function AboutFellowship() {
           <p className="mt-4 text-white/80">{t("subtitle")}</p>
         </div>
         <div className="relative mt-10 overflow-hidden rounded-need border border-amber-300/40 bg-need-green-950">
-          <div className="aspect-[21/9] bg-gradient-to-br from-need-green-800 to-need-green-950" />
+          <div className="aspect-[21/9] bg-gradient-to-br from-need-green-800 to-need-green-950">
+            <img
+              src="/images/hero image.jpg"
+              alt={t("photoTitle")}
+              className="h-full w-full object-cover"
+            />
+          </div>
           <div className="absolute inset-x-0 bottom-0 flex flex-col gap-3 p-5 sm:flex-row sm:items-end sm:justify-between">
             <div>
               <p className="text-lg font-bold">{t("photoTitle")}</p>

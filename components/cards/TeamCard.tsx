@@ -8,6 +8,7 @@ export type TeamMember = {
   specialties: string[];
   languages: string[];
   photoAlt: string;
+  photo?: string;
 };
 
 type TeamCardProps = {
@@ -30,11 +31,15 @@ export function TeamCard({
         className,
       )}
     >
-      <div
-        className="aspect-[4/5] bg-gradient-to-br from-need-green-100 via-need-cream to-need-orange-100"
-        role="img"
-        aria-label={member.photoAlt}
-      />
+      <div className="relative aspect-[4/5] bg-gradient-to-br from-need-green-100 via-need-cream to-need-orange-100">
+        {member.photo ? (
+          <img
+            src={member.photo}
+            alt={member.photoAlt}
+            className="h-full w-full object-cover"
+          />
+        ) : null}
+      </div>
       <div className="flex flex-1 flex-col p-6">
         <h3 className="text-xl font-bold text-need-ink">{member.name}</h3>
         <p className="mt-1 text-sm font-semibold text-need-orange">
